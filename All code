@@ -1,10 +1,11 @@
+
 "Write a program that prints:
 
 “Bangladesh ”
 Hello class of cse115L!! Welcome to BD .
-"	FALSE	TRUE		
+"			
 "Write a program that prompts the user to insert an integer value, 
-a decimal number and his name and print the inserted value as output."	FALSE	TRUE		"#include <iostream>
+a decimal number and his name and print the inserted value as output."			"#include <iostream>
 #include <conio.h>
 using namespace std;
 int main()
@@ -23,10 +24,12 @@ int main()
   cin >> Name;
   cout << ""\nName: "" << Name;
   getch();
-}"
+}
+
+
 "Data types and their size in C.
 
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 #include <conio.h>
 using namespace std;
 int main()
@@ -44,8 +47,10 @@ int main()
   cout << sizeof(f) << ""long double in byte\n"";
 
   getch();
-}"
-Write a program that reads in the radius of a circle and prints the circle’s diameter, circumference and area.	FALSE	TRUE		"#include <iostream>
+}
+
+
+Write a program that reads in the radius of a circle and prints the circle’s diameter, circumference and area.			"#include <iostream>
 #include <math.h>
 #include <iomanip>
 using namespace std;
@@ -59,19 +64,21 @@ int main()
   cout << setprecision(2);
   cout << ""Diameter of the circle: "" << i * 2 << ""\nCircumference: "" << 2 * x * i << ""\nAngle of the circle: "" << x * pow(i, 2);
   return 0;
-}"
+}
+
+
 "Write a program that asks the user to enter two numbers, obtains the two numbers from the user and prints the sum, 
 product, difference, quotient and remainder of the two numbers.
 
-Input:                                               Output:
+Input:       Output:
 
 Insert first number: 10 
-Insert second number: 5                  Sum = 15
-                                                         Product = 50
-                                                         Difference = 5
-                                                         Quotient = 2
-                                                         Remainder = 0
-"	FALSE	TRUE		"#include <iostream>
+Insert second number: 5  Sum = 15
+ Product = 50
+ Difference = 5
+ Quotient = 2
+ Remainder = 0
+"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -83,22 +90,22 @@ int main()
   std::cin >> b;
 
   std::cout << ""Sum = "" << a + b
-            << ""\nProduct = "" << a * b
-            << ""\nDifference = "" << a - b
-            << ""\nQuotient = "" << a / b
-            << ""\nRemainder = "" << a % b;
+    << ""\nProduct = "" << a * b
+    << ""\nDifference = "" << a - b
+    << ""\nQuotient = "" << a / b
+    << ""\nRemainder = "" << a % b;
 
   return 0;
 }
 "
 "Write a program that reads in 3 numbers and prints their average.
 
-Input:                                                   Output:The average is: 4.3
+Input:   Output:The average is: 4.3
 Insert first number: 3 
 Insert second number: 8 
-Insert third number: 2        
+Insert third number: 2
 
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 #include <iomanip>
 int main()
 {
@@ -120,7 +127,7 @@ int main()
 "Convert Celsius to Fahrenheit unit using the following formula. 
 Take the value of C as input from user and calculate the value of F.
 F= C * (9/5) + 32
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 #include <iomanip>
 int main()
@@ -169,13 +176,15 @@ int main()
     break;
   }
   return 0;
-}"
+}
+
+
 "Ask user for two integers a and b. Then swap (interchange) the values of a and b. 
 That means, a should get the value of b and b should get the value of a.
 Enter a: 7
 Enter b: 3
 After swapping, a: 3 and b: 7
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 // #include <iomanip>
 int main()
@@ -211,9 +220,11 @@ int main()
   cout << ""After swapping,\n""
        << "" a: "" << a << "" and b: "" << b << endl;
   return 0;
-}"
-C++Program to demonstrate change of values of a variable.	FALSE	TRUE		
-C++Program to compute squared root and cube of an input number.	FALSE	TRUE		"
+}
+
+
+C++Program to demonstrate change of values of a variable.			
+C++Program to compute squared root and cube of an input number.			"
 #include <iostream>
 #include <math.h>
 #include <iomanip>
@@ -227,8 +238,10 @@ int main()
   cout <<setprecision(2)<< fixed;
   cout << sqrt(a) << "" "" << pow(a, 3) << endl;
   return 0;
-}"
-C++program to print size of variables of different data types. 	FALSE	TRUE		"
+}
+
+
+C++program to print size of variables of different data types. 			"
 #include <iostream>
 // #include <math.h>
 #include <iomanip>
@@ -246,7 +259,7 @@ int main()
   return 0;
 }
 "
-C++Program to convert a lowercase letter to uppercase:	FALSE	TRUE		"#include <iostream>
+C++Program to convert a lowercase letter to uppercase:			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -256,8 +269,10 @@ int main()
   cout << ""upperCase: "" <<(char) toupper(a) << endl;
   cout << ""lowerCase: "" <<(char) tolower(a) << endl;
   return 0;
-}"
-Write a program that converts an uppercase letter to lowercase.	FALSE	TRUE		"#include <iostream>
+}
+
+
+Write a program that converts an uppercase letter to lowercase.			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -267,8 +282,10 @@ int main()
   cout << ""upperCase: "" <<(char) toupper(a) << endl;
   cout << ""lowerCase: "" <<(char) tolower(a) << endl;
   return 0;
-}"
-C++program to print the last digit of a number and all the other digits of it.	FALSE	TRUE		"#include <iostream>
+}
+
+
+C++program to print the last digit of a number and all the other digits of it.			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -279,8 +296,10 @@ int main()
   other = num / 10;
   cout << ""last: "" << last << "", other: "" << other;
   return 0;
-}"
-6.        C++program to convert days to years weeks and days	FALSE	TRUE		"#include <iostream>
+}
+
+
+6.C++program to convert days to years weeks and days			"#include <iostream>
 using namespace std;
 
 int main()
@@ -293,8 +312,10 @@ int main()
   int day = i - ((year * 365) + (week * 7));
   cout << ""year: "" << year << ""\nweek: "" << week << ""\nday: "" << day << endl;
   return 0;
-}"
-1.        Compute the value of 5x3-4x2+√(x)+3; read x from user	FALSE	TRUE		"#include <iostream>
+}
+
+
+1.Compute the value of 5x3-4x2+√(x)+3; read x from user			"#include <iostream>
 #include <math.h>
 using namespace std;
 int main()
@@ -305,10 +326,12 @@ int main()
   x = 5 * pow(x, 3) - 4 * pow(x, 2) + sqrt(x) + 3;
   cout << ""value: "" << x << endl;
   return 0;
-}"
-"2.        Solve the equation: ax2+bx+c=0 and print the solutions. Read a,b,c from user
+}
+
+
+"2.Solve the equation: ax2+bx+c=0 and print the solutions. Read a,b,c from user
 Hint: compute the values of (-b+sqrt(b2-4ac))/2a and (-b-sqrt(b2-4ac))/2a; here sqrt is a C function that computes the squared root of a number
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 #include <math.h>
 using namespace std;
 int main()
@@ -322,9 +345,9 @@ int main()
   return 0;
 }
 "
-"3.        Find the volume of a (a) cube and (b) cylinder
+"3.Find the volume of a (a) cube and (b) cylinder
 Note: Read necessary inputs from user e.g. height and diameter of the cylinder for (a)
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 #include <math.h>
 using namespace std;
 int main()
@@ -352,9 +375,11 @@ int main()
     break;
   }
   return 0;
-}"
-"4.        Compute quotient and remainder when you divide x by y (read x, y from user). 
-Also, compute quotient and remainder when you divide y by x. Print all these four results."	FALSE	TRUE		"#include <iostream>
+}
+
+
+"4.Compute quotient and remainder when you divide x by y (read x, y from user). 
+Also, compute quotient and remainder when you divide y by x. Print all these four results."			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -370,8 +395,8 @@ int main()
   return 0;
 }
 "
-5.        Read a temperature in Celsius and print its Fahrenheit equivalent (Hint: C=(F-32)*5/9)	FALSE	TRUE		
-6.        Print the sum of the series:1+2+...+n; read n from user (Hint: 1+2+...+n= n(n-1)/2)	FALSE	TRUE		"#include <iostream>
+5.Read a temperature in Celsius and print its Fahrenheit equivalent (Hint: C=(F-32)*5/9)			
+6.Print the sum of the series:1+2+...+n; read n from user (Hint: 1+2+...+n= n(n-1)/2)			"#include <iostream>
 using namespace std;
 int n;
 void fx()
@@ -393,8 +418,10 @@ int main()
   fx();
   cout << n << "" is: "" << (n * (n + 1)) / 2;
   return 0;
-}"
-7.        Print the sum of the series:1^2+2^2+...+n2; read n from user.	FALSE	TRUE		"#include <iostream>
+}
+
+
+7.Print the sum of the series:1^2+2^2+...+n2; read n from user.			"#include <iostream>
 using namespace std;
 int n;
 void fx()
@@ -418,7 +445,7 @@ int main()
   return 0;
 }
 "
-C programs to demonstrate bitwise operators:	FALSE	TRUE		"#include <iostream>
+C programs to demonstrate bitwise operators:			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -430,17 +457,17 @@ int main()
     cin >> i;
     int x = num << i;
     cout << ""\n""
-         << num << ""<<"" << i << ""="" << x;
+ << num << ""<<"" << i << ""="" << x;
     cout << ""\nBinary Right Shift Operator number >> i : "";
     cin >> i;
     int f = x >> i;
     cout << ""\n""
-         << x << "">>"" << i << ""="" << f;
+ << x << "">>"" << i << ""="" << f;
     return 0;
 }
 "
 same as above, except now we are using hexadecimal values	FALSE	FALSE		
-use AND OR XOR	FALSE	TRUE		"#include <iostream>
+use AND OR XOR			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -451,8 +478,10 @@ int main()
      cout << ""\na OR b: "" << (a | b);
      cout << ""\na XOR b: "" << (a ^ b);
      return 0;
-}"
-6.        C Program to find surface area of a sphere:	FALSE	TRUE		"#include <iostream>
+}
+
+
+6.C Program to find surface area of a sphere:			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -461,8 +490,10 @@ int main()
      cin >> radius;
      cout << ""The surface of the sphere "" << 4*radius*radius*pi << endl;
      return 0;
-}"
-5. C Program to demonstrate the usage of assignment and increment operators:	FALSE	TRUE		"#include <iostream>
+}
+
+
+5. C Program to demonstrate the usage of assignment and increment operators:			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -473,8 +504,10 @@ int main()
      cout << ++a<<endl;
      cout << ++a<<endl;
      return 0;
-}"
-Use 1's complement and 2's complement	FALSE	TRUE		"#include <iostream>
+}
+
+
+Use 1's complement and 2's complement			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -483,9 +516,11 @@ int main()
      cin >> a;
      cout << ""-a: "" << -a << "", ~a: "" << ~a;
      return 0;
-}"
-"1.        Read an integer number n from user. Compute the bitwise AND of n and 1. 
-Do you see a pattern in the result? (Hint: observe the difference in the result when n is odd vs. when n is even)"	FALSE	TRUE		"#include <iostream>
+}
+
+
+"1.Read an integer number n from user. Compute the bitwise AND of n and 1. 
+Do you see a pattern in the result? (Hint: observe the difference in the result when n is odd vs. when n is even)"			"#include <iostream>
 #include <bitset>
 using namespace std;
 int main()
@@ -496,17 +531,17 @@ int main()
     int x = (n & 1);
     if (x == 0)
     {
-        cout << ""even\n"" << bitset<8>(x);
+cout << ""even\n"" << bitset<8>(x);
     }
     else
     {
-        cout << ""odd\n"" << bitset<8>(x);
+cout << ""odd\n"" << bitset<8>(x);
     }
     return 0;
 }
 "
-"2.        Read two integer numbers m, n from user. Compute the value of m*2n as well as the value of m <<n. 
-Do you see a pattern in the result? Now compute the value of m/2n as well as the value of m >>n. Do you see a pattern?"	FALSE	TRUE		"#include <iostream>
+"2.Read two integer numbers m, n from user. Compute the value of m*2n as well as the value of m <<n. 
+Do you see a pattern in the result? Now compute the value of m/2n as well as the value of m >>n. Do you see a pattern?"			"#include <iostream>
 #include <bitset>
 #include <cmath>
 using namespace std;
@@ -516,19 +551,19 @@ int main()
     cout << ""\nEnter the number of m and n: "";
     cin >> m >> n;
     cout << ""m<<n: "" << (m << n) << "" ; Binary: ""
-         << bitset<8>(m << n) << endl;
+ << bitset<8>(m << n) << endl;
     cout << ""m>>n: "" << (m >> n) << "" ; Binary: ""
-         << bitset<8>(m >> n) << endl;
+ << bitset<8>(m >> n) << endl;
 
     cout << ""\nm*2^n: "" << (int)(m * pow(2, n)) << "" ; Binary: ""
-         << bitset<8>((int)(m * pow(2, n))) << endl;
+ << bitset<8>((int)(m * pow(2, n))) << endl;
     cout << ""m/2^n: "" << (int)(m / pow(2, n)) << "" ; Binary: ""
-         << bitset<8>((int)(m / pow(2, n))) << endl;
+ << bitset<8>((int)(m / pow(2, n))) << endl;
 
     return 0;
 }
 "
-3.        Compute the volume of a sphere; read the radius from user.	FALSE	TRUE		"#include <iostream>
+3.Compute the volume of a sphere; read the radius from user.			"#include <iostream>
 #include <iomanip>
 #include <cmath>
 using namespace std;
@@ -539,12 +574,14 @@ int main()
     cout << ""Enter the radius of the sphere: "";
     cin >> r;
     cout << fixed << setprecision(3)
-         << ""Volume of the sphere is ""
-         << (double)((4 / 3) * pi * pow(r, 3)) << endl;
+ << ""Volume of the sphere is ""
+ << (double)((4 / 3) * pi * pow(r, 3)) << endl;
     return 0;
-}"
-"4.        Read the co-ordinates of two points (x1,y1) and (x2,y2) from user. 
-Compute the midpoints of these two points and print it up to 2 decimal points."	FALSE	TRUE		"#include <iostream>
+}
+
+
+"4.Read the co-ordinates of two points (x1,y1) and (x2,y2) from user. 
+Compute the midpoints of these two points and print it up to 2 decimal points."			"#include <iostream>
 #include <iomanip>
 using namespace std;
 int main()
@@ -559,8 +596,10 @@ int main()
     double midX = (x1 + x2) / 2, midY = (y1 + y2) / 2;
     cout << ""Midpoint coordinates(x,y): "" << fixed << setprecision(2) << midX << "" , "" << midY << endl;
     return 0;
-}"
-5.        Find the angle of a segment in a circle; read the arc length and radius from user.	FALSE	TRUE		"#include <iostream>
+}
+
+
+5.Find the angle of a segment in a circle; read the arc length and radius from user.			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -574,7 +613,7 @@ int main()
   return 0;
 }
 "
-1.        Compute the area of a (a) trapezoid and (b) parallelogram. Read necessary inputs from user.	FALSE	TRUE		"#include <iostream>
+1.Compute the area of a (a) trapezoid and (b) parallelogram. Read necessary inputs from user.			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -590,7 +629,7 @@ int main()
     return 0;
 }
 "
-2.        Compute the volume and surface area of a cone. Read the radius and height of the cone from user.	FALSE	TRUE		"#include <iostream>
+2.Compute the volume and surface area of a cone. Read the radius and height of the cone from user.			"#include <iostream>
 #include <cmath>
 using namespace std;
 int main()
@@ -604,9 +643,11 @@ int main()
     cin >> r >> l;
     cout << ""surface of cone: "" << pi * r * (l + r) << endl;
     return 0;
-}"
-"3.        Read the lengths of base and height of a right angle triangle. 
-Then compute the length of its hypotenuse using Pythagorean theorem."	FALSE	TRUE		"#include <iostream>
+}
+
+
+"3.Read the lengths of base and height of a right angle triangle. 
+Then compute the length of its hypotenuse using Pythagorean theorem."			"#include <iostream>
 #include <cmath>
 using namespace std;
 int main()
@@ -618,7 +659,7 @@ int main()
     return 0;
 }
 "
-"4.        Write a C++program to count total number of notes in given amount.
+"4.Write a C++program to count total number of notes in given amount.
 Tentative Input/Output (bold ones are user inputs):
 Enter amount: 1176 
 Total number of notes: 
@@ -630,7 +671,7 @@ Total number of notes:
 5: 1
 2: 0
 1: 1
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -715,7 +756,7 @@ int main()
   return 0;
 }
 "
-1. C++program to find maximum between two numbers:	FALSE	TRUE		"#include <iostream>
+1. C++program to find maximum between two numbers:			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -723,15 +764,15 @@ int main()
     cout << ""Enter the two number: "";
     cin >> a >> b;
     if (a > b)
-        cout << a << "" is greater than "" << b << endl;
+cout << a << "" is greater than "" << b << endl;
     else if (a < b)
-        cout << b << "" is greater than "" << a << endl;
+cout << b << "" is greater than "" << a << endl;
     else
-        cout << a << "" is equal to "" << b << endl;
+cout << a << "" is equal to "" << b << endl;
     return 0;
 }
 "
-Try it yourself 1a:  Write a C++program to find minimum between two numbers.	FALSE	TRUE		"#include <iostream>
+Try it yourself 1a:  Write a C++program to find minimum between two numbers.			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -739,67 +780,69 @@ int main()
     cout << ""Enter the two number: "";
     cin >> a >> b;
     if (a < b)
-        cout << a << "" is minimum "" << endl;
+cout << a << "" is minimum "" << endl;
     else if (a > b)
-        cout << b << "" is minimum "" << endl;
+cout << b << "" is minimum "" << endl;
     else
-        cout << a << "" is equal to ""<<b << endl;
+cout << a << "" is equal to ""<<b << endl;
     return 0;
-}"
-2. C++program to find maximum among three numbers:	FALSE	TRUE		"#include <iostream>
+}
+
+
+2. C++program to find maximum among three numbers:			"#include <iostream>
 using namespace std;
 int main()
 {
     double a, b, c;
     while (1)
     {
-        cout << ""\nEnter the three numbers: "";
-        cin >> a >> b >> c;
-        if (a > b & a > c)
-        {
-            cout << a;
-        }
-        else if (b > c)
-        {
-            cout << b;
-        }
-        else if (a == c & b == c)
-            cout << ""All equal"" << endl;
-        else
-            cout << c;
+cout << ""\nEnter the three numbers: "";
+cin >> a >> b >> c;
+if (a > b & a > c)
+{
+    cout << a;
+}
+else if (b > c)
+{
+    cout << b;
+}
+else if (a == c & b == c)
+    cout << ""All equal"" << endl;
+else
+    cout << c;
     }
 
     return 0;
 }
 "
-Try it yourself 2:  Write a C++program to find minimum among three numbers.	FALSE	TRUE		"#include <iostream>
+Try it yourself 2:  Write a C++program to find minimum among three numbers.			"#include <iostream>
 using namespace std;
 int main()
 {
     double a, b, c;
     while (1)
     {
-        cout << ""\nEnter the three numbers: "";
-        cin >> a >> b >> c;
-        if (a < b & a < c)
-        {
-            cout << a;
-        }
-        else if (b < c)
-        {
-            cout << b;
-        }
-        else if (a == c & b == c)
-            cout << ""All equal"" << endl;
-        else
-            cout << c;
+cout << ""\nEnter the three numbers: "";
+cin >> a >> b >> c;
+if (a < b & a < c)
+{
+    cout << a;
+}
+else if (b < c)
+{
+    cout << b;
+}
+else if (a == c & b == c)
+    cout << ""All equal"" << endl;
+else
+    cout << c;
     }
     return 0;
 }
 "
 ". C++program to check Leap Year (a year is a leap year if –
  (i) it is divisible by 4 but not divisible by 100 OR 
-(ii) it is divisible by 400):"	FALSE	TRUE		"#include <iostream>
+(ii) it is divisible by 400):"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -807,14 +850,14 @@ int main()
     cout << ""Year: "";
     cin >> year;
     if ((year % 4 == 0) && (year % 100 != 0) || (year % 400==0))
-        cout << ""Leap year: "" << year;
+cout << ""Leap year: "" << year;
     else
-        cout << ""Not Leap year: "" << year;
+cout << ""Not Leap year: "" << year;
 
     return 0;
 }
 "
-1.        Write a C++program to enter month number and print number of days in month	FALSE	TRUE		"#include <iostream>
+1.Write a C++program to enter month number and print number of days in month			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -822,22 +865,24 @@ int main()
     cout << ""Enter month(1-12): "";
     cin >> month;
     if (month >= 1 && month <= 12)
-        switch (month)
-        {
-        case 1:case 3:case 5:case 7:case 8:case 10:case 12:
-            day = 31;
-            break;
-        case 4:case 6:case 9:case 11:
-            day = 30;
-        case 2:
-            day = 28;//assuming non-leap year;
-        }
+switch (month)
+{
+case 1:case 3:case 5:case 7:case 8:case 10:case 12:
+    day = 31;
+    break;
+case 4:case 6:case 9:case 11:
+    day = 30;
+case 2:
+    day = 28;//assuming non-leap year;
+}
 cout<<""month: ""<<month<<"" day: ""<<day<<endl;
     return 0;
-}"
-"2.        Write a C++program that decides whether a person is eligible to work in a particular company or not. 
+}
+
+
+"2.Write a C++program that decides whether a person is eligible to work in a particular company or not. 
 The company policy is: If the person’s age is between 25 and 45, s/he are eligible to work.
- Otherwise, your software should say “You are too young or too old”."	FALSE	TRUE		"#include <iostream>
+ Otherwise, your software should say “You are too young or too old”."			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -845,14 +890,14 @@ int main()
     cout << ""Enter age: "";
     cin >> age;
     if (age >= 25 and age <= 45)
-        cout << ""Eligible to work"" << endl;
+cout << ""Eligible to work"" << endl;
     else
-        cout << ""You are too young or too old"";
+cout << ""You are too young or too old"";
     return 0;
 }
 "
-"3.        Write a C++program to check if an input integer is a multiple of either 2 or 5 but not a multiple of both. 
-E.g. of valid numbers are 4, 6, 8, 12, 14, 15, 16, 25, etc. E.g. of invalid numbers are 1, 3, 7, 9, 10, 20, etc."	FALSE	TRUE		"#include <iostream>
+"3.Write a C++program to check if an input integer is a multiple of either 2 or 5 but not a multiple of both. 
+E.g. of valid numbers are 4, 6, 8, 12, 14, 15, 16, 25, etc. E.g. of invalid numbers are 1, 3, 7, 9, 10, 20, etc."			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -860,83 +905,89 @@ int main()
     cout << ""Enter a number: "";
     cin >> num;
     if ((num % 2 == 0 or num % 5 == 0) and !(num % 2 == 0 and num % 5 == 0))
-        cout << num << "" is a multiple of either 2 or 5 but not a multiple of both\n"";
+cout << num << "" is a multiple of either 2 or 5 but not a multiple of both\n"";
     else
-        cout << num << "" is not a multiple of either 2 or 5 but a multiple of both\n"";
+cout << num << "" is not a multiple of either 2 or 5 but a multiple of both\n"";
     return main();
-}"
-"4.        Write a C++program to check whether an input number is a multiple of only 5 (e.g. 5, 10, 15, ...), 
-only 11 (e.g. 11, 22, 33, ...), both 5 and 11 (e.g. 55, 110, ....), or neither of them (e.g. 2,3, 4, 6, 7, 8, 9, 12, ....)."	FALSE	TRUE		"#include <iostream>
+}
+
+
+"4.Write a C++program to check whether an input number is a multiple of only 5 (e.g. 5, 10, 15, ...), 
+only 11 (e.g. 11, 22, 33, ...), both 5 and 11 (e.g. 55, 110, ....), or neither of them (e.g. 2,3, 4, 6, 7, 8, 9, 12, ....)."			"#include <iostream>
 using namespace std;
 int main()
 {
     int num;
     while (true)
     {
-        cout << ""ইনপুট num: "";
-        cin >> num;
-        if (num % 5 == 0)
-            cout << num << "" শুধুমাত্র 5 গুণিতক \n"";
-        else if (num % 11 == 0)
-            cout << num << "" শুধুমাত্র 11 গুণিতক \n"";
-        else if (num % 5 == 0 and num % 11 == 0)
-            cout << num << ""  5 এবং 11 উভয়ের গুণিতক\n"";
-        else 
-            cout << num << ""  5 এবং 11 উভয়ের কোনটিই নয় গুণিতক\n"";
+cout << ""ইনপুট num: "";
+cin >> num;
+if (num % 5 == 0)
+    cout << num << "" শুধুমাত্র 5 গুণিতক \n"";
+else if (num % 11 == 0)
+    cout << num << "" শুধুমাত্র 11 গুণিতক \n"";
+else if (num % 5 == 0 and num % 11 == 0)
+    cout << num << ""  5 এবং 11 উভয়ের গুণিতক\n"";
+else 
+    cout << num << ""  5 এবং 11 উভয়ের কোনটিই নয় গুণিতক\n"";
     }
     return 0;
 }
 "
-"5.        Check if the roots of the equation: ax2+bx+c=0 are real or not.
- If they are real, then print them; otherwise print “No real root exist.” Read a,b,c from user."	FALSE	TRUE		"#include <iostream>
+"5.Check if the roots of the equation: ax2+bx+c=0 are real or not.
+ If they are real, then print them; otherwise print “No real root exist.” Read a,b,c from user."			"#include <iostream>
 #include <math.h>
 using namespace std;
 int main()
 {
     float a, b, c;
     cout << ""\tax^2+bx+c=0""
-         << ""\nEnter\ta  b  c\n\t"";
+ << ""\nEnter\ta  b  c\n\t"";
     cin >> a >> b >> c;
     if ((pow(b, 2) < 4 * a * c))
-        cout << ""\""No real root exist.\"""" << endl;
+cout << ""\""No real root exist.\"""" << endl;
     else
-        cout << ""value x: "" << ((-b + sqrt(pow(b, 2) - 4 * a * c)) / 2 * a)
-             << "" , "" << ((-b - sqrt(pow(b, 2) - 4 * a * c)) / 2 * a) << endl;
+cout << ""value x: "" << ((-b + sqrt(pow(b, 2) - 4 * a * c)) / 2 * a)
+     << "" , "" << ((-b - sqrt(pow(b, 2) - 4 * a * c)) / 2 * a) << endl;
     return 0;
-}"
-"1.        Write a C++program to input sides of a triangle and check whether triangle is valid or not 
-(Hint: if sum of any two sides of a triangle is greater than the third side then the triangle is valid)"	FALSE	TRUE		"#include <iostream>
+}
+
+
+"1.Write a C++program to input sides of a triangle and check whether triangle is valid or not 
+(Hint: if sum of any two sides of a triangle is greater than the third side then the triangle is valid)"			"#include <iostream>
 using namespace std;
 int main()
 {
     float a, b, c;
     cout << ""\tinput three sides of a triangle: ""
-         << ""\nEnter\ta  b  c\n\t"";
+ << ""\nEnter\ta  b  c\n\t"";
     cin >> a >> b >> c;
     if (((a + b) > c) and ((c + b) > a) and ((a + c) > b))
-        cout << ""\""The triangle is valid\"""" << endl;
+cout << ""\""The triangle is valid\"""" << endl;
     else
-        cout << ""The triangle is invalid"" << endl;
+cout << ""The triangle is invalid"" << endl;
     return 0;
 }
 "
-"2.        Write a C++program to input all angles of a triangle and check whether triangle is valid or not. 
-(Hint: sum of all angles of any triangle is 180 degrees)"	FALSE	TRUE		"#include <iostream>
+"2.Write a C++program to input all angles of a triangle and check whether triangle is valid or not. 
+(Hint: sum of all angles of any triangle is 180 degrees)"			"#include <iostream>
 using namespace std;
 int main()
 {
     float a, b, c;
     cout << ""\tinput three angle of a triangle: ""
-         << ""\nEnter\ta  b  c\n\t"";
+ << ""\nEnter\ta  b  c\n\t"";
     cin >> a >> b >> c;
     if ((a+b+c)==180)
-            cout << ""\""The triangle is valid\"""" << endl;
-        else
-            cout << ""The triangle is invalid"" << endl;
+    cout << ""\""The triangle is valid\"""" << endl;
+else
+    cout << ""The triangle is invalid"" << endl;
     return 0;
-}"
-"3.        Read a character from user and check if it is a valid hexadecimal digit or not. 
-Hint: a char is a valid hexadecimal digit if it is one of these characters: ‘0’, ‘1’, ... , ‘9’, ‘a’, ’b’, ... , ’f’, ‘A’,’B’, ... ,’F’"	FALSE	TRUE		"#include <iostream>
+}
+
+
+"3.Read a character from user and check if it is a valid hexadecimal digit or not. 
+Hint: a char is a valid hexadecimal digit if it is one of these characters: ‘0’, ‘1’, ... , ‘9’, ‘a’, ’b’, ... , ’f’, ‘A’,’B’, ... ,’F’"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -944,13 +995,15 @@ int main()
     cout << ""Enter hexadecimal digits: "";
     cin >> ch;
     if ((ch >= 48 and ch <= 57) or ((ch >= 97 and ch <= 102) or (ch >= 65 and ch <= 70)))
-        cout << ch << "": valid"" << endl;
+cout << ch << "": valid"" << endl;
     else
-        cout << ch << "": Invalid"" << endl;
+cout << ch << "": Invalid"" << endl;
     return 0;
-}"
-"4.        Read a floating point number from user and check if it has any fractional part (e.g. 4.5, 6.9,...) or not (e.g. 4, 5, ...). 
-If it has a fractional part then print “Not an integer”, otherwise print “integer”."	FALSE	TRUE		"#include <iostream>
+}
+
+
+"4.Read a floating point number from user and check if it has any fractional part (e.g. 4.5, 6.9,...) or not (e.g. 4, 5, ...). 
+If it has a fractional part then print “Not an integer”, otherwise print “integer”."			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -959,9 +1012,9 @@ int main()
     cin >> number;
     int i = number;
     if (number / i == 1)
-        cout << ""integer"";
+cout << ""integer"";
     else
-        cout << ""Not an integer"";
+cout << ""Not an integer"";
     return 0;
 }
 -----------------------------------------
@@ -974,10 +1027,10 @@ int main()
     cin >> number;
     if (number != static_cast<int>(number))
     {
-        cout << ""Not an Integer"" << endl;
+cout << ""Not an Integer"" << endl;
     }
     else
-        cout << ""Integer"";
+cout << ""Integer"";
     return 0;
 }
 -----------------------------------------------
@@ -989,13 +1042,15 @@ int main()
     double number;
     cin >> number;
     if ((int)number==number)
-        cout << ""integer"";
+cout << ""integer"";
     else
-        cout << ""Not an integer"";
+cout << ""Not an integer"";
     return 0;
-}"
-"5.        Write a C++program that reads the radius r of a circle and the side a of a square from user and
- then checks if that square can be placed inside that circle or not. Hint: Use Pythagorean theorem."	FALSE	TRUE		"#include <iostream>
+}
+
+
+"5.Write a C++program that reads the radius r of a circle and the side a of a square from user and
+ then checks if that square can be placed inside that circle or not. Hint: Use Pythagorean theorem."			"#include <iostream>
 #include <cmath>
 using namespace std;
 int main()
@@ -1006,12 +1061,14 @@ int main()
     cout << ""\nEnter a side of a square: "";
     cin >> a;
     if (2 * r >= sqrt(2) * a)
-        cout << ""Square can be placed inside that circle"";
+cout << ""Square can be placed inside that circle"";
     else
-        cout << ""Square can't be placed inside that circle"";
+cout << ""Square can't be placed inside that circle"";
     return 0;
-}"
-1. Cpp Program to check whether the input is a character, digit or a special character.	FALSE	TRUE		"#include <iostream>
+}
+
+
+1. Cpp Program to check whether the input is a character, digit or a special character.			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1019,15 +1076,17 @@ int main()
     char c;
     cin >> c;
     if (c >= '0' && c <= '9')
-        cout << ""Digit: "" << c;
+cout << ""Digit: "" << c;
     else if (c >= 'a' && c <= 'z' or c >= 'A' and c <= 'Z')
-        cout << ""Alpha: "" << c;
+cout << ""Alpha: "" << c;
     else
-        cout << ""Special characters: "" << c;
+cout << ""Special characters: "" << c;
     return 0;
-}"
+}
+
+
 "Try it yourself 1a:  Write a Cpp program to check whether an input alphabet is a 
-vowel or a consonant (assume that the input is an English letter)."	FALSE	TRUE		"#include <iostream>
+vowel or a consonant (assume that the input is an English letter)."			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1035,12 +1094,12 @@ int main()
     char ch;
     cin >> ch;
     if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
-        ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
-        cout << ""Vowel: "" << ch;
+ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
+cout << ""Vowel: "" << ch;
     else if (ch == 'q' || ch == 'w' || ch == 'r' || ch == 't' || ch == 'y' || ch == 'p' || ch == 's' || ch == 'd' || ch == 'f' || ch == 'g' || ch == 'h' || ch == 'j' || ch == 'k' || ch == 'l' || ch == 'z' || ch == 'x' || ch == 'c' || ch == 'v' || ch == 'b' || ch == 'n' || ch == 'm' || ch == 'Q' || ch == 'W' || ch == 'R' || ch == 'T' || ch == 'Y' || ch == 'P' || ch == 'S' || ch == 'D' || ch == 'F' || ch == 'G' || ch == 'H' || ch == 'J' || ch == 'K' || ch == 'L' || ch == 'Z' || ch == 'X' || ch == 'C' || ch == 'V' || ch == 'B' || ch == 'N' || ch == 'M')
-        cout << ""consunant"";
+cout << ""consunant"";
     else
-        cout << ""Not Consunant and not vowel"";
+cout << ""Not Consunant and not vowel"";
 
     return 0;
 }
@@ -1055,20 +1114,20 @@ int main()
     cin >> ch;
     if (isalpha(ch))
     {
-        ch = tolower(ch);
-        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
-            cout << ""Vowel: "" << ch;
-        else
-            cout << ""consunant"";
+ch = tolower(ch);
+if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+    cout << ""Vowel: "" << ch;
+else
+    cout << ""consunant"";
     }
     else
-        cout << ""Not Consunant and not vowel"";
+cout << ""Not Consunant and not vowel"";
 
     return 0;
 }
 
 "
-Cpp program to check whether an input is an odd number or an even number using switch-case	FALSE	TRUE		"#include <iostream>
+Cpp program to check whether an input is an odd number or an even number using switch-case			"#include <iostream>
 #include <cctype>
 using namespace std;
 int main()
@@ -1078,23 +1137,25 @@ int main()
     cin >> num;
     if (cin.fail())
     {
-        cout << ""Invalid Input"" << endl;
+cout << ""Invalid Input"" << endl;
     }
     else
     {
-        switch (num % 2)
-        {
-        case 0:
-            cout << ""Even Number"" << endl;
-            break;
-        case 1:
-            cout << ""Odd Number"" << endl;
-            break;
-        }
+switch (num % 2)
+{
+case 0:
+    cout << ""Even Number"" << endl;
+    break;
+case 1:
+    cout << ""Odd Number"" << endl;
+    break;
+}
     }
-}"
+}
+
+
 "Try it yourself 2: Write a C program to check whether an input alphabet is a 
-vowel or a consonant using switch case (assume that the input is an English letter)."	FALSE	TRUE		"#include <iostream>
+vowel or a consonant using switch case (assume that the input is an English letter)."			"#include <iostream>
 using namespace std;
 
 int main()
@@ -1104,74 +1165,78 @@ int main()
     cin >> ch;
     if (isalpha(ch))
     {
-        ch = tolower(ch);
-        switch (ch)
-        {
-        case 'a':
-        case 'e':
-        case 'i':
-        case 'o':
-        case 'u':
-            cout << ""Vowel"";
-            break;
-        default:
-            cout << ""Consonant"";
-            break;
-        }
+ch = tolower(ch);
+switch (ch)
+{
+case 'a':
+case 'e':
+case 'i':
+case 'o':
+case 'u':
+    cout << ""Vowel"";
+    break;
+default:
+    cout << ""Consonant"";
+    break;
+}
     }
     else
     {
-        cout << ""invalid input"" << endl;
+cout << ""invalid input"" << endl;
     }
     return 0;
-}"
-"1.        Write a C program that takes input the first letter of any of the following fruits name– 
+}
+
+
+"1.Write a C program that takes input the first letter of any of the following fruits name– 
 Mango ---- Tk.500/kg, 
 Apple   ---- Tk.250/kg, 
 Banana ----Tk. 130/kg, 
 Cherry -----Tk. 270/kg, and suggests the price of the fruit as output, using switch case.
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 
 int main()
 {
     char ch;
     cout << ""Write a C program that takes input the first letter of any of the following fruits name–""
-         << ""\nMango-- --Tk .500 / kg,""
-         << ""\nApple-- --Tk .250 / kg,""
-         << ""\nBanana-- --Tk.130 / kg,""
-         << ""\nCherry-- -- -Tk.270 / kg ""
-         << ""\nEnter the letter: "";
+ << ""\nMango-- --Tk .500 / kg,""
+ << ""\nApple-- --Tk .250 / kg,""
+ << ""\nBanana-- --Tk.130 / kg,""
+ << ""\nCherry-- -- -Tk.270 / kg ""
+ << ""\nEnter the letter: "";
     cin >> ch;
     if (isalpha(ch))
     {
-        ch = tolower(ch);
-        switch (ch)
-        {
-        case 'm':
-            cout << ""Mango-- --Tk .500 / kg"";
-            break;
-        case 'a':
-            cout << ""Apple-- --Tk .250 / kg"";
-            break;
-        case 'b':
-            cout << ""Banana-- --Tk.130 / kg"";
-            break;
-        case 'c':
-            cout << ""Cherry-- -- -Tk.270 / kg"";
-            break;
+ch = tolower(ch);
+switch (ch)
+{
+case 'm':
+    cout << ""Mango-- --Tk .500 / kg"";
+    break;
+case 'a':
+    cout << ""Apple-- --Tk .250 / kg"";
+    break;
+case 'b':
+    cout << ""Banana-- --Tk.130 / kg"";
+    break;
+case 'c':
+    cout << ""Cherry-- -- -Tk.270 / kg"";
+    break;
 
-        default:
-            cout << ""Unknown"";
-            break;
-        }
+default:
+    cout << ""Unknown"";
+    break;
+}
     }
     else
-        cout << ""invalid input"" << endl;
+cout << ""invalid input"" << endl;
 
     return 0;
-}"
-2.        Find the maximum between two numbers using switch case.	FALSE	TRUE		"#include <iostream>
+}
+
+
+2.Find the maximum between two numbers using switch case.			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1180,33 +1245,35 @@ int main()
     cin >> num1 >> num2;
     if (cin.fail())
     {
-        cout << ""Please enter a number!!"" << endl;
+cout << ""Please enter a number!!"" << endl;
     }
     else if (num1 == num2)
     {
-        cout << ""Equal number"";
+cout << ""Equal number"";
     }
 
     else
     {
-        switch (num1 > num2)
-        {
-        case 1:
-            cout << num1 << "" > "" << num2 << endl;
-            break;
-        case 0:
-            cout << num1 << "" < "" << num2 << endl;
-            break;
-        }
+switch (num1 > num2)
+{
+case 1:
+    cout << num1 << "" > "" << num2 << endl;
+    break;
+case 0:
+    cout << num1 << "" < "" << num2 << endl;
+    break;
+}
     }
     return 0;
-}"
-"3.        Use switch case to make a simple calculator that can add, subtract, multiply or divide two input numbers. The operator (+ ,   -  ,  *  or   /) should also be read from user.
+}
+
+
+"3.Use switch case to make a simple calculator that can add, subtract, multiply or divide two input numbers. The operator (+ ,   -  ,  *  or   /) should also be read from user.
 Sample Input/Output:
 Enter two numbers: 4.5 2.9
 Enter operator: +
 4.5 + 2.9 = 7.4
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1215,8 +1282,8 @@ int main()
     cin >> num1 >> num2;
     if (cin.fail())
     {
-        cout << ""Please enter a number!!"" << endl;
-        return 0;
+cout << ""Please enter a number!!"" << endl;
+return 0;
     }
    char ch;
    cout << ""Enter operator: "";
@@ -1229,8 +1296,10 @@ int main()
     default: cout <<""Invalid operator"";
    }
     return 0;
-}"
-1.        Write a C program to check whether a year is a leap year or not, using switch case. 	FALSE	TRUE		"#include <iostream>
+}
+
+
+1.Write a C program to check whether a year is a leap year or not, using switch case. 			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1239,22 +1308,24 @@ int main()
     cin >> year;
     if (cin.fail())
     {
-        cout << ""Please enter a year!!"" << endl;
+cout << ""Please enter a year!!"" << endl;
     }
 
     int r = year % 100 != 0 and year % 4 == 0 or year % 400 == 0;
     switch (r)
     {
     case 1:
-        cout << year << "" is a leap year "";
-        break;
+cout << year << "" is a leap year "";
+break;
     case 0:
-        cout << year << "" is not a leap year"";
-        break;
+cout << year << "" is not a leap year"";
+break;
     }
     return 0;
-}"
-"2.        Farhan must pay a bill to a shopkeeper. The shopkeeper doesn’t have any change, so Farhan
+}
+
+
+"2.Farhan must pay a bill to a shopkeeper. The shopkeeper doesn’t have any change, so Farhan
  must have all the notes required to pay the bill.
  Write a C program that reads the bill and the number of each type of note (500, 100, 50, 20, 10, 5, 2, 1) from user
 and then output whether it is possible for Farhan to pay the bill or not. 
@@ -1279,7 +1350,7 @@ Farhan can pay the bill by using the following counts of different notes:
 5: 1
 2: 0
 1: 0
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1290,40 +1361,42 @@ int main()
     int notesCount[8];
     for (int i = 0; i < 8; i++)
     {
-        cout << notes[i] << "" : "";
-        cin >> notesCount[i];
+cout << notes[i] << "" : "";
+cin >> notesCount[i];
     }
     cout << ""-------------------------------------------------------------"" << endl;
     int totalAmount = 0;
     for (int i = 0; i < 8; i++)
     {
-        totalAmount += notes[i] * notesCount[i];
+totalAmount += notes[i] * notesCount[i];
     }
     if (totalAmount < billAmount)
-        cout << ""Not pay this bill !!"";
+cout << ""Not pay this bill !!"";
     else
     {
 
-        for (int i = 0; i < 8; i++)
-        {
-            if (notesCount[i] > 0)
-            {
-                int count = min(notesCount[i], billAmount / notes[i]);
-                cout << notes[i] << "" : "" << count << endl;
-                billAmount -= count * notes[i];
-            }
-        }
-        if (billAmount != 0)
-            cout
-                << ""Remained bill amount: "" << billAmount << ""\nFarhan not pay remained bill\n"" << endl;
-        else
-            cout << ""Farhan can pay the bill by using the following counts of different notes\n"" << endl;
+for (int i = 0; i < 8; i++)
+{
+    if (notesCount[i] > 0)
+    {
+int count = min(notesCount[i], billAmount / notes[i]);
+cout << notes[i] << "" : "" << count << endl;
+billAmount -= count * notes[i];
+    }
+}
+if (billAmount != 0)
+    cout
+<< ""Remained bill amount: "" << billAmount << ""\nFarhan not pay remained bill\n"" << endl;
+else
+    cout << ""Farhan can pay the bill by using the following counts of different notes\n"" << endl;
     }
     return 0;
-}"
+}
+
+
 "1. Write C Program to calculate the tax from salary using the following table. 
 The formula for tax is: tax = (base tax) + (percentage of excess)*(salary – min. salary in the salary range). 
-For e.g., if the salary is 32000, then tax=5400+(22/100)*(32000-30000) = 5400+440=5840."	FALSE	TRUE		"#include <iostream>
+For e.g., if the salary is 32000, then tax=5400+(22/100)*(32000-30000) = 5400+440=5840."			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1336,18 +1409,20 @@ int main()
     else if (salary >= 50000 && salary <= 79999.99)cout << ""tax "" << 11000 + (27. / 100) * (salary - 50000);
     else if (salary >= 80000 && salary <= 150000)cout << ""tax "" << 21600 + (33. / 100) * (salary - 80000);
     return 0;
-}"
+}
+
+
 ". Write a C program that reads the semester no. of a student and
  print a comment about student based on the table below. Use if - else if - else.
 
-Semester No.        Comment
- 0                            Invalid Semester
- 1-3                         Freshman
- 4-6                         Sophomore
- 7-9                         Junior
- 10-12                     Senior
- >12                        You must graduate soon
-"	FALSE	TRUE		"#include <iostream>
+Semester No.Comment
+ 0    Invalid Semester
+ 1-3 Freshman
+ 4-6 Sophomore
+ 7-9 Junior
+ 10-12     Senior
+ >12You must graduate soon
+"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1355,20 +1430,22 @@ int main()
     cout << ""Enter semester: "";
     cin >> semester;
     if (semester == 0)
-        cout << ""Comment: Invalid Semester"";
+cout << ""Comment: Invalid Semester"";
     else if (semester >= 1 && semester <= 3)
-        cout << ""Comment: Freshman"";
+cout << ""Comment: Freshman"";
     else if (semester >= 4 && semester <= 6)
-        cout << ""Comment: Sophomore"";
+cout << ""Comment: Sophomore"";
     else if (semester >= 7 && semester <= 9)
-        cout << ""Comment: Junior"";
+cout << ""Comment: Junior"";
     else if (semester >= 10 && semester <= 12)
-        cout << ""Comment: Senior"";
+cout << ""Comment: Senior"";
     else
-        cout << ""Comment: You must graduate soon"";
+cout << ""Comment: You must graduate soon"";
     return 0;
-}"
-Solve the above problem using switch-case.	FALSE	TRUE		"#include <iostream>
+}
+
+
+Solve the above problem using switch-case.			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1377,28 +1454,30 @@ int main()
     cin >> semester;
     switch (semester)
     {
-        {
-        case 0:
-            cout << ""Comment: Invalid Semester"";
-            break;
-        case 1 ... 3:
-            cout << ""Comment: Freshman"";
-            break;
-        case 4 ... 6:
-            cout << ""Comment: Sophomore"";
-            break;
-        case 7 ... 9:
-            cout << ""Comment: Junior"";
-            break;
-        case 10 ... 12:
-            cout << ""Comment: Senior"";
-            break;
-        default:
-            cout << ""Comment: You must graduate soon"";
-        }
-        return 0;
+{
+case 0:
+    cout << ""Comment: Invalid Semester"";
+    break;
+case 1 ... 3:
+    cout << ""Comment: Freshman"";
+    break;
+case 4 ... 6:
+    cout << ""Comment: Sophomore"";
+    break;
+case 7 ... 9:
+    cout << ""Comment: Junior"";
+    break;
+case 10 ... 12:
+    cout << ""Comment: Senior"";
+    break;
+default:
+    cout << ""Comment: You must graduate soon"";
+}
+return 0;
     }
-}"
+}
+
+
 "Write a C program that reads the first letter of direction (North, South, East, West), current (x,y) coordinate, and 
 advancement of a person and prints the new coordinate. For e.g., if the current coordinate of a person in X- Y plane is (2,3) and
  s/he advances 6 units towards North, then his/her new coordinate is (2,3+6)=(2,9). 
@@ -1408,7 +1487,7 @@ Enter current coordinate (x and y positions): 2 3
 Enter No. units towards direction: 6
 Enter Direction: N
 New coordinate: (2,9)
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1424,29 +1503,31 @@ int main()
     if (direction == 'e')
     {
 
-        cout << ""New coordinate: "" << '(' << x + toward << ',' << y << "")\n"" << endl;
+cout << ""New coordinate: "" << '(' << x + toward << ',' << y << "")\n"" << endl;
     }
     else if (direction == 'w')
     {
 
-        cout << ""New coordinate: "" << '(' << x - toward << ',' << y << "")\n"" << endl;
+cout << ""New coordinate: "" << '(' << x - toward << ',' << y << "")\n"" << endl;
     }
     else if (direction == 'n')
     {
-        cout << ""New coordinate: ""
-             << '(' << x << ',' << y + toward << "")\n"" << endl;
+cout << ""New coordinate: ""
+     << '(' << x << ',' << y + toward << "")\n"" << endl;
     }
     else if(direction == 's')
     {
-        cout << ""New coordinate: ""
-             << '(' << x << ',' << y - toward << "")\n"" << endl;
+cout << ""New coordinate: ""
+     << '(' << x << ',' << y - toward << "")\n"" << endl;
     }
     else{
-        cout << ""invalid direction: "" << direction<<""\n"" << endl;
+cout << ""invalid direction: "" << direction<<""\n"" << endl;
     }
     return 0;
-}"
-5. Solve question#4 using switch-case.	FALSE	TRUE		"#include <iostream>
+}
+
+
+5. Solve question#4 using switch-case.			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1462,28 +1543,30 @@ int main()
     switch (direction)
     {
     case 'e':
-        cout << ""New coordinate: "" << '(' << x + toward << ',' << y << "")\n""
-             << endl;
-        break;
+cout << ""New coordinate: "" << '(' << x + toward << ',' << y << "")\n""
+     << endl;
+break;
     case 'w':
-        cout << ""New coordinate: "" << '(' << x - toward << ',' << y << "")\n""
-             << endl;
-        break;
+cout << ""New coordinate: "" << '(' << x - toward << ',' << y << "")\n""
+     << endl;
+break;
     case 'n':
-        cout << ""New coordinate: "" << '(' << x << ',' << y + toward << "")\n""
-             << endl;
-        break;
+cout << ""New coordinate: "" << '(' << x << ',' << y + toward << "")\n""
+     << endl;
+break;
     case 's':
-        cout << ""New coordinate: "" << '(' << x << ',' << y - toward << "")\n""
-             << endl;
-        break;
+cout << ""New coordinate: "" << '(' << x << ',' << y - toward << "")\n""
+     << endl;
+break;
     default:
-        cout << ""invalid direction: "" << direction << ""\n""
-             << endl;
+cout << ""invalid direction: "" << direction << ""\n""
+     << endl;
     }
     return 0;
-}"
-1. Write a C program that computes the sum of the series:  3+7+11+…+n, where n is a user input	FALSE	TRUE		"#include <iostream>
+}
+
+
+1. Write a C program that computes the sum of the series:  3+7+11+…+n, where n is a user input			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1492,18 +1575,20 @@ int main()
     cin >> n;
     for (int i = 1; i <= n; i++)
     {
-        cout << term;
-        sum = sum + term;
-        if (i < n)
-        {
-            cout << ""+"";
-        }
-        term += 4;
+cout << term;
+sum = sum + term;
+if (i < n)
+{
+    cout << ""+"";
+}
+term += 4;
     }
     cout << ""="" << sum << endl;
     return 0;
-}"
-2. Write a C program to print all odd numbers from 1 to n (n is user input) using for loop. 	FALSE	TRUE		"#include <iostream>
+}
+
+
+2. Write a C program to print all odd numbers from 1 to n (n is user input) using for loop. 			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1513,15 +1598,17 @@ int main()
     cout << ""All odd numbers from 1 to "" << n << "" are:"";
     for (int i = 0; i <= n; i++)
     {
-        if (i % 2 != 0)
-        {
-            cout << "" "" << i;
-        }
+if (i % 2 != 0)
+{
+    cout << "" "" << i;
+}
 
     }
-        return 0;
-}"
-3. Write a C program that reads an integer and then computes & prints the factorial of that integer	FALSE	TRUE		"#include <iostream>
+return 0;
+}
+
+
+3. Write a C program that reads an integer and then computes & prints the factorial of that integer			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1530,50 +1617,56 @@ int main()
      cin >> n;
      for (int i = 1; i <= n; i++)
      {
-          cout <<i;
-          if (i < n)
-          {
-               cout << ""!"";
-          }
-          factor *= i;
+  cout <<i;
+  if (i < n)
+  {
+       cout << ""!"";
+  }
+  factor *= i;
      }
      cout << ""="" << factor << endl;
      return 0;
-}"
-"1.        Write a program to display all decimal digits (i.e., numbers in the range 0 - 9) in reverse order.
-Example output:        9 8 7 6 5 4 3 2 1 0
-"	FALSE	TRUE		"#include <iostream>
+}
+
+
+"1.Write a program to display all decimal digits (i.e., numbers in the range 0 - 9) in reverse order.
+Example output:9 8 7 6 5 4 3 2 1 0
+"			"#include <iostream>
 using namespace std;
 int main()
 {
      cout << ""Output: "";
      for (int i = 9; i >= 0; i--)
      {
-          cout <<"" ""<<i;
+  cout <<"" ""<<i;
      }
      return 0;
-}"
-"2.        Write a program to display all the letters of the alphabet (a-z). 
+}
+
+
+"2.Write a program to display all the letters of the alphabet (a-z). 
 Use two for loops: the 1st one will print all letters in small letters and the 2nd one will print them in capital letters.
-Example output:        a b c d e ……… z
-                                  A B C D ……… Z
-"	FALSE	TRUE		"#include <iostream>
+Example output:a b c d e ……… z
+  A B C D ……… Z
+"			"#include <iostream>
 using namespace std;
 int main()
 {
      cout << ""Output: "";
      for (int i = 97; i <= 122; i++)
      {
-          cout <<"" ""<<(char)i;
+  cout <<"" ""<<(char)i;
      }
      cout << ""\n\t"";
      for (int i = 97-32; i <= 122-32; i++)
      {
-          cout <<"" ""<<(char)i;
+  cout <<"" ""<<(char)i;
      }
      return 0;
-}"
-3.        Write a program to compute the following series using while loop: 4+11+18++….+n	FALSE	TRUE		"#include <iostream>
+}
+
+
+3.Write a program to compute the following series using while loop: 4+11+18++….+n			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1583,13 +1676,15 @@ int main()
      cout<<""output: "";
      for (int i = 1; i <= n; i++)
      {
-          cout <<sum;
-          if(i<n) cout<<""+""; 
-          sum += 7;
+  cout <<sum;
+  if(i<n) cout<<""+""; 
+  sum += 7;
      }
      return 0;
-}"
-4.        Write a program to compute the following series using while loop: 2^3+5^3+8^3+...+n^3	FALSE	TRUE		"#include <iostream>
+}
+
+
+4.Write a program to compute the following series using while loop: 2^3+5^3+8^3+...+n^3			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1599,23 +1694,25 @@ int main()
      cout << ""Output: "";
      for (int i = 1; i <= n; i++)
      {
-          cout << sum;
-          if (i < n)
-               cout << ""^3+"";
-          else
-               cout << ""^3"";
-          x +=sum*sum*sum;
-          sum += 3;
+  cout << sum;
+  if (i < n)
+       cout << ""^3+"";
+  else
+       cout << ""^3"";
+  x +=sum*sum*sum;
+  sum += 3;
      }
      cout << ""="" << x << endl;
      return 0;
-}"
-"5.        Write a program to print all even numbers between m and n (m, n are user inputs) in reverse order.
+}
+
+
+"5.Write a program to print all even numbers between m and n (m, n are user inputs) in reverse order.
 Sample input/output (bold ones are inputs):
 Enter m: 9
 Enter n: 21
 All even numbers between 9 and 20 in reverse order: 20, 18, 16, 14, 12, 10
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1627,23 +1724,25 @@ int main()
     cout << ""All even numbers between "" << m << "" and "" << n << "" in reverse order: "";
     if (m > n)
     {
-        for (n; n <= m; n++)
-        {
-            if (n % 2 == 0)
-                cout << "" "" << n;
-        }
+for (n; n <= m; n++)
+{
+    if (n % 2 == 0)
+cout << "" "" << n;
+}
     }
     else
     {
-        for (n; n >= m; n--)
-        {
-            if (n % 2 == 0)
-                cout << "" "" << n;
-        }
+for (n; n >= m; n--)
+{
+    if (n % 2 == 0)
+cout << "" "" << n;
+}
     }
     return 0;
-}"
-1.        Write a program to compute the following series using while loop: 5^2+9^2+15^2+23^2+....+n^2	FALSE	TRUE		"#include <iostream>
+}
+
+
+1.Write a program to compute the following series using while loop: 5^2+9^2+15^2+23^2+....+n^2			"#include <iostream>
 #include <cmath>
 using namespace std;
 
@@ -1682,30 +1781,30 @@ int main() {
     cin >> n;
 
     while (n > count) {
-        if (i != 5) {
-            cout << "" + "";
-        }
+if (i != 5) {
+    cout << "" + "";
+}
 
-        cout << i << ""^2"";
-        sum += i * i;
-        i += term;
-        term += 2;
-        count++;
+cout << i << ""^2"";
+sum += i * i;
+i += term;
+term += 2;
+count++;
     }
     cout << "" = "" << sum << endl;
     return 0;
 }
 
 "
-2.        Write a program that computes the following series using for loop: 10000+2000+400+…+8	FALSE	FALSE		
+2.Write a program that computes the following series using for loop: 10000+2000+400+…+8	FALSE	FALSE		
 "3.Write a program that takes a minimum number, a maximum number, and common difference and prints the
  sum of the arithmetic series between them. 
 Sample input/output (bold ones are inputs): 
-Enter minimum: 11        
+Enter minimum: 11
 Enter maximum: 19
 Enter Common difference: 2
 The Sum is: 11 + 13 + 15 +17 +19 = 75
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1733,7 +1832,9 @@ int main()
   }
   cout << "" = "" << sum;
   return 0;
-}"
+}
+
+
 "4.Write a program that takes a minimum number, a maximum number, and common ratio and prints the sum of 
 the geometric series between them. 
 Sample input/output (bold ones are inputs): 
@@ -1741,7 +1842,7 @@ Enter minimum: 5
 Enter maximum: 150
 Enter Common ratio: 3
 The Sum is: 5 + 15 + 45 + 135 = 200
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1770,21 +1871,23 @@ int main()
   }
   cout << "" = "" << sum;
   return 0;
-}"
+}
+
+
 "5. Write a C program to print the multiplication table (নামতা) of any given integer number.
 Sample input/output (bold ones are inputs): 
 Enter number to print the multiplication table of: 5
 5 * 1 = 5
 5 * 2 = 10
 5 * 3 = 15
-5 * 4 = 20        
+5 * 4 = 20
 5 * 5 = 25
 5 * 6 = 30
 5 * 7 = 35
 5 * 8 = 40
 5 * 9 = 45
 5 * 10 = 50
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1796,8 +1899,10 @@ int main()
     cout << n << "" * "" << i << "" = "" << n * i << endl;
   }
   return 0;
-}"
-6.        Write a C program to compute the value of nPr = n*(n-1)*(n-2)*…*(n-r+1), read n and r from user.	FALSE	TRUE		"#include <iostream>
+}
+
+
+6.Write a C program to compute the value of nPr = n*(n-1)*(n-2)*…*(n-r+1), read n and r from user.			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1818,12 +1923,14 @@ int main()
   }
   cout << multiple;
   return 0;
-}"
+}
+
+
 "7. Write a C program to find power of any number using for loop.  Don’t use pow() function. Example: 
 Enter base:    2
 Enter power:   5
 2 to the power  5 = 32
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1849,16 +1956,18 @@ int main()
   }
   cout << sum;
   return 0;
-}"
-Write a C program to print all odd numbers from 1 to n (n is user input) using for loop. 	FALSE	TRUE		"for(i=1;  i<=n;  i++)
+}
+
+
+Write a C program to print all odd numbers from 1 to n (n is user input) using for loop. 			"for(i=1;  i<=n;  i++)
     {
-        if(i%2!=0)        // Check if the number is odd
-        {
-            cout<<i<<""  "";
-        }
+if(i%2!=0)// Check if the number is odd
+{
+    cout<<i<<""  "";
+}
     }
 "
-2. Write a C program to read an integer from user and count the total number of digits in it.	FALSE	TRUE		"#include <iostream>
+2. Write a C program to read an integer from user and count the total number of digits in it.			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1898,8 +2007,10 @@ int main()
   }
   cout << ""Number of digits: "" << count << endl;
   return 0;
-}"
-Write a C program to read an integer from user and count the total number of nonzero digits in it.	FALSE	TRUE		"#include <iostream>
+}
+
+
+Write a C program to read an integer from user and count the total number of nonzero digits in it.			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1917,11 +2028,13 @@ int main()
   }
   cout <<""Total Non-zero number: ""<< count;
   return 0;
-}"
+}
+
+
 "Write a C program to read an integer and compute the sum of digits in it. Sample Input/Output:
 Enter any integer: 452
 Sum of digits in 452: 11
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1943,8 +2056,10 @@ int main()
   }
   cout << "" : "" << sum;
   return 0;
-}"
-Write a C program to find all the factors of a number.	FALSE	TRUE		"#include <iostream>
+}
+
+
+Write a C program to find all the factors of a number.			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1958,8 +2073,10 @@ int main()
       cout << i << "" "";
   }
   return 0;
-}"
-Try yourself 3: Write a C program to print all the odd factors of a given number. 	FALSE	TRUE		"#include <iostream>
+}
+
+
+Try yourself 3: Write a C program to print all the odd factors of a given number. 			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -1973,8 +2090,10 @@ int main()
       cout << i << "" "";
   }
   return 0;
-}"
-Write a C program that can be used to find whether a number is a prime number or not 	FALSE	TRUE		"#include <iostream>
+}
+
+
+Write a C program that can be used to find whether a number is a prime number or not 			"#include <iostream>
 using namespace std;
 bool IsPrime(int n)
 {
@@ -1992,9 +2111,11 @@ int main()
   cin >> n;
   IsPrime(n) ? cout << n << "" is prime number"" : cout << n << "" is not a prime number"";
   return 0;
-}"
-"1.        Write a C program to read an integer from user and output its last and first digit. Hint: Like practice 2 & 3,
- reduce the number by dividing it (by 10) again and again (in a loop) until you reach the first digit."	FALSE	TRUE		"#include <iostream>
+}
+
+
+"1.Write a C program to read an integer from user and output its last and first digit. Hint: Like practice 2 & 3,
+ reduce the number by dividing it (by 10) again and again (in a loop) until you reach the first digit."			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -2008,11 +2129,13 @@ int main()
   cout << ""first number: "" << first_digit << endl;
   cout << ""last number: "" << last_digit << endl;
   return 0;
-}"
-"2.        Write a C program to check whether an input number is a perfect number or not. 
+}
+
+
+"2.Write a C program to check whether an input number is a perfect number or not. 
 A perfect number is a positive integer which is equal to the sum of its proper positive factors. 
 For e.g. 6 is a perfect number; because proper factors of 6 are 1, 2, 3 and 1+2+3 = 6. 
-Also, 28 is a perfect number since sum of its factors = 1+2+4+7+14 = 28."	FALSE	TRUE		"#include <iostream>
+Also, 28 is a perfect number since sum of its factors = 1+2+4+7+14 = 28."			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -2031,7 +2154,7 @@ int main()
       cout << i;
       sum+=i;
       if (i < (n/2))
-        cout << ""+"";
+cout << ""+"";
     }
   }
 
@@ -2071,12 +2194,14 @@ int main()
   else
   {
     cout << n << "" is not a perfect number."" << endl;
-  }"
+  }
+  
+
 "1. Write a C program to enter any number from user and find the reverse of a given number using loop.
  Sample input/output (bold ones are user inputs):
 Enter a number: 2345
 Reverse of 2345 is: 5432
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -2091,9 +2216,11 @@ int main()
   }
   cout <<""Reverse: ""<< reverse;
   return 0;
-}"
+}
+
+
 "2. Write a C program to read a number from user and check whether given number is a palindrome or not.
-A number is a palindrome if the number is the same as its reverse for e.g. 23432 is a palindrome but 2345 is not. "	FALSE	TRUE		"#include <iostream>
+A number is a palindrome if the number is the same as its reverse for e.g. 23432 is a palindrome but 2345 is not. "			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -2111,12 +2238,14 @@ int main()
      cout << ""reverse and palindrome "" << reverse;
   else
     cout << ""not palindrome "" << reverse;
-}"
-"3.        Write a C program to read any integer from user and compute the reverse of given number. 
+}
+
+
+"3.Write a C program to read any integer from user and compute the reverse of given number. 
 Also output whether the reverse number is prime or not. Sample Input/Output: 
 Enter any integer: 4521
 Reverse number is: 1254. It is not a prime number.
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -2145,12 +2274,14 @@ int main()
   }
   cout << "" .It is a prime number"";
   return 0;
-}"
-"4.        Write a C program to compute the sum of digits of an input number and check if this sum is a prime or not.
+}
+
+
+"4.Write a C program to compute the sum of digits of an input number and check if this sum is a prime or not.
 Sample Input/Output: 
 Enter any integer: 2821
 Sum of its digits = 13. It is a prime number.
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -2182,8 +2313,10 @@ int main()
   }
   cout << "" .It is a prime number"";
   return 0;
-}"
-Write a C program to read 2 integers: n and r from user and compute the value of (_^n)P_r= n!/(n-r)!	FALSE	TRUE		"#include <iostream>
+}
+
+
+Write a C program to read 2 integers: n and r from user and compute the value of (_^n)P_r= n!/(n-r)!			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -2204,9 +2337,11 @@ int main()
   }
   cout << multiple;
   return 0;
-}"
+}
+
+
 "Try Yourself 1: Write a C program to read 2 integers: n and r from user and compute the value of
- (_^n)C_r= n!/r!(n-r)!"	FALSE	TRUE		"#include <iostream>
+ (_^n)C_r= n!/r!(n-r)!"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -2227,9 +2362,11 @@ int main()
   }
   cout << ""nCr: "" << (multiple / fact) << endl;
   return 0;
-}"
+}
+
+
 . Write a C program to find Least Common Multiple (LCM) of two given numbers.	FALSE	FALSE		
-Try Yourself 2: Write a C program to read 3 integers and compute their LCM.	FALSE	TRUE		"#include <iostream>
+Try Yourself 2: Write a C program to read 3 integers and compute their LCM.			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -2238,16 +2375,18 @@ int main()
     i = max(max(n1, n2), n3);
     while (1)
     {
-        if (i % n1 == 0 and i % n2 == 0 and i % n3 == 0)
-        {
-            break;
-        }
-        i++;
+if (i % n1 == 0 and i % n2 == 0 and i % n3 == 0)
+{
+    break;
+}
+i++;
     }
     cout << i;
     return 0;
-}"
-Write a C program display a given number in words starting from its rightmost digit 	FALSE	TRUE		"#include <iostream>
+}
+
+
+Write a C program display a given number in words starting from its rightmost digit 			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -2256,51 +2395,53 @@ int main()
     cin >> n;
     if (cin.fail())
     {
-        cout << ""Not a number"";
-        return 0;
+cout << ""Not a number"";
+return 0;
     }
     while (n!=0)
     {
-        switch (n%10)
-        {
-        case 1:
-            cout << ""one "";
-            break;
-        case 2:
-            cout << ""two "";
-            break;
-        case 3:
-            cout << ""three "";
-            break;
-        case 4:
-            cout << ""four "";
-            break;
-        case 5:
-            cout << ""five "";
-            break;
-        case 6:
-            cout << ""six "";
-            break;
-        case 7:
-            cout << ""seven "";
-            break;
-        case 8:
-            cout << ""eight "";
-            break;
-        case 9:
-            cout << ""nine "";
-            break;
-        case 0:
-            cout << ""zero "";
-            break;
-        }
-        n/= 10;
+switch (n%10)
+{
+case 1:
+    cout << ""one "";
+    break;
+case 2:
+    cout << ""two "";
+    break;
+case 3:
+    cout << ""three "";
+    break;
+case 4:
+    cout << ""four "";
+    break;
+case 5:
+    cout << ""five "";
+    break;
+case 6:
+    cout << ""six "";
+    break;
+case 7:
+    cout << ""seven "";
+    break;
+case 8:
+    cout << ""eight "";
+    break;
+case 9:
+    cout << ""nine "";
+    break;
+case 0:
+    cout << ""zero "";
+    break;
+}
+n/= 10;
     }
 
     return 0;
-}"
+}
+
+
 "1. Write a C program to find Greatest Common Divisor (GCD ) of two given integers.
- GCD of two integers is the highest number that totally divides those two integers. E.g. GCD of 15 and 25 is 5."	FALSE	TRUE		"#include <iostream>
+ GCD of two integers is the highest number that totally divides those two integers. E.g. GCD of 15 and 25 is 5."			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -2309,13 +2450,15 @@ int main()
     cin >> n1 >> n2;
     while (n2 != 0)
     {
-        int temp =n2;
-        n2=n1%n2;
-        n1=temp;
+int temp =n2;
+n2=n1%n2;
+n1=temp;
     }
     cout << ""GCD: "" <<n1;
-}"
-Write a C program to compute the quadruple factorial of a given number n,q(n)=  (2n)!/n!	FALSE	TRUE		"#include <iostream>
+}
+
+
+Write a C program to compute the quadruple factorial of a given number n,q(n)=  (2n)!/n!			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -2324,16 +2467,18 @@ int main()
     cin >> n;
     for (int i = 1; i <= 2 * n; i++)
     {
-        mul *= i;
+mul *= i;
     }
     for (int i = 1; i <= n; i++)
     {
-        mult *= i;
+mult *= i;
     }
     cout << ""q(n)=(2n)!/n!= "" << mul / mult;
     return 0;
-}"
-Write a C program to compute the super-factorial of a given number n,sf(n)= 1!*2!*3!*…n!	FALSE	TRUE		"// Write a C program to compute the super-factorial of a given number n,sf(n)= 1!*2!*3!*…n!
+}
+
+
+Write a C program to compute the super-factorial of a given number n,sf(n)= 1!*2!*3!*…n!			"// Write a C program to compute the super-factorial of a given number n,sf(n)= 1!*2!*3!*…n!
 #include <iostream>
 using namespace std;
 int main()
@@ -2344,23 +2489,25 @@ int main()
     cin >> n;
     for (int i = 1; i <= n; i++)
     {
-        cout << i << ""!"";
-        for (int j = 1; j <= i; j++)
-        {
-            mult *= j;
-            // cout << ""*"";
-        }
+cout << i << ""!"";
+for (int j = 1; j <= i; j++)
+{
+    mult *= j;
+    // cout << ""*"";
+}
 
-        if (i < n)
-            cout << ""*"";
+if (i < n)
+    cout << ""*"";
     }
     cout << "" = "" << mult;
     return 0;
-}"
-"1.        Write a C program to display a given number in words starting from its leftmost digit.
+}
+
+
+"1.Write a C program to display a given number in words starting from its leftmost digit.
 Hint: Compute the reverse of the given number and then use a while loop like practice 3 to print the digits.
  E.g., if input number is 1234 your program should print “One Two Three Four”.
-"	FALSE	TRUE		"// 1.        Write a C program to display a given number in words starting from its leftmost digit.
+"			"// 1.Write a C program to display a given number in words starting from its leftmost digit.
 //  Hint: Compute the reverse of the given number and then use a while loop like practice 3 to print the digits. E.g., if input number is 1234 your program should print “One Two Three Four”.
 
 #include <iostream>
@@ -2371,9 +2518,9 @@ int reverse(int a)
     int reverse1 = 0;
     while (a != 0)
     {
-        int last_number = a % 10;
-        reverse1 = reverse1 * 10 + last_number;
-        a = a / 10;
+int last_number = a % 10;
+reverse1 = reverse1 * 10 + last_number;
+a = a / 10;
     }
     return reverse1;
 }
@@ -2384,7 +2531,7 @@ int main()
     cin >> n;
     if (cin.fail())
     {
-        cout << ""invalid"";
+cout << ""invalid"";
     }
     else if(n == 0)cout << ""zero"" << endl;
 
@@ -2392,44 +2539,46 @@ int main()
 
     while (m != 0)
     {
-        switch (m % 10)
-        {
-        case 0:
-            cout << ""zero "";
-            break;
-        case 1:
-            cout << ""one "";
-            break;
-        case 2:
-            cout << ""two "";
-            break;
-        case 3:
-            cout << ""three "";
-            break;
-        case 4:
-            cout << ""four "";
-            break;
-        case 5:
-            cout << ""five "";
-            break;
-        case 6:
-            cout << ""six "";
-            break;
-        case 7:
-            cout << ""seven "";
-            break;
-        case 8:
-            cout << ""eight "";
-            break;
-        case 9:
-            cout << ""nine "";
-            break;
-        }
-        m /= 10;
+switch (m % 10)
+{
+case 0:
+    cout << ""zero "";
+    break;
+case 1:
+    cout << ""one "";
+    break;
+case 2:
+    cout << ""two "";
+    break;
+case 3:
+    cout << ""three "";
+    break;
+case 4:
+    cout << ""four "";
+    break;
+case 5:
+    cout << ""five "";
+    break;
+case 6:
+    cout << ""six "";
+    break;
+case 7:
+    cout << ""seven "";
+    break;
+case 8:
+    cout << ""eight "";
+    break;
+case 9:
+    cout << ""nine "";
+    break;
+}
+m /= 10;
     }
     return 0;
-}"
-2.        Write a C program to convert a given Binary number to its Decimal equivalent.	FALSE	TRUE		"// 2.        Write a C program to convert a given Binary number to its Decimal equivalent.
+}
+
+
+2.Write a C program to convert a given Binary number to its Decimal equivalent.			"// 2.Write a C program to convert a given Binary number to its Decimal equivalent.
 
 #include <iostream>
 using namespace std;
@@ -2440,11 +2589,11 @@ int main()
     cin >> n;
     while (n != 0)
     {
-        last_number = n % 10;
-        mult *= 2;//2,4,8,16,32,64,128..............
-        int dec = mult * last_number;//2x(binary last_number serial way)
-        sum += dec;
-        n /= 10;
+last_number = n % 10;
+mult *= 2;//2,4,8,16,32,64,128..............
+int dec = mult * last_number;//2x(binary last_number serial way)
+sum += dec;
+n /= 10;
     }
     cout << ""Decimal: "" << sum/2 << endl;
     return 0;
@@ -2459,15 +2608,17 @@ int main()
     cin >> n;
     while (n != 0)
     {
-        last_number = n % 10;
-        dec = dec + (mult * last_number);
-        n /= 10;
-        mult *= 2;
+last_number = n % 10;
+dec = dec + (mult * last_number);
+n /= 10;
+mult *= 2;
     }
     cout << ""Decimal: "" << dec << endl;
     return 0;
-}"
-3.        Write a C program to convert a given decimal number to its binary equivalent.	FALSE	TRUE		"#include <iostream>
+}
+
+
+3.Write a C program to convert a given decimal number to its binary equivalent.			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -2476,9 +2627,9 @@ int main()
     cin >> n;
     while (n != 0)
     {
-        if(n%2!=0)cout << 1;
-        else cout <<0;
-        n/=2;
+if(n%2!=0)cout << 1;
+else cout <<0;
+n/=2;
     }
    // cout << ""Decimal: "" << dec << endl;
     return 0;
@@ -2495,16 +2646,18 @@ int main()
     cin >> n;
     while (n != 0)
     {
-        last_number = n % 2;
-        binary_number = binary_number + (last_number * mul);
-        cout<<binary_number<<endl;
-        n /= 2;
-        mul *= 10;
+last_number = n % 2;
+binary_number = binary_number + (last_number * mul);
+cout<<binary_number<<endl;
+n /= 2;
+mul *= 10;
     }
     cout << ""Decimal: "" << binary_number << endl;
     return 0;
-}"
-4.        Write a C program to compute the sum of the series: 1/1! + 1/2! + 1/3! + … + 1/n! where n is an input.	FALSE	TRUE		"#include <iostream>
+}
+
+
+4.Write a C program to compute the sum of the series: 1/1! + 1/2! + 1/3! + … + 1/n! where n is an input.			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -2514,22 +2667,24 @@ int main()
     cin >> n;
     if (n < 1)
     {
-        cout << ""Please enter possition number"" << endl;
-        return 1;
+cout << ""Please enter possition number"" << endl;
+return 1;
     }
     for (int i = 1; i <= n; i++)
     {
-        cout << ""1/"" << i << ""!"";
-        factorial *= i;
-        sum += 1 / factorial;
-        if (i < n)
-            cout << ""+"";
+cout << ""1/"" << i << ""!"";
+factorial *= i;
+sum += 1 / factorial;
+if (i < n)
+    cout << ""+"";
     }
     cout << "" = "" << sum;
     return 0;
-}"
+}
+
+
 "Enter n: 6
-1/1!+2/2!+3/3!+4/4!+5/5!+6/6! = 2.71667"	FALSE	TRUE		"#include <iostream>
+1/1!+2/2!+3/3!+4/4!+5/5!+6/6! = 2.71667"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -2539,25 +2694,27 @@ int main()
     cin >> n;
     if (n < 1)
     {
-        cout << ""Please enter possition number"" << endl;
-        return 1;
+cout << ""Please enter possition number"" << endl;
+return 1;
     }
     for (int i = 1; i <= n; i++)
     {
-        cout << i << ""/"" << i << ""!"";
-        factorial *= i;
-        sum += i / factorial;
-        if (i < n)
-            cout << ""+"";
+cout << i << ""/"" << i << ""!"";
+factorial *= i;
+sum += i / factorial;
+if (i < n)
+    cout << ""+"";
     }
     cout << "" = "" << sum;
     return 0;
-}"
+}
+
+
 "5. Write a C program that prints all even numbers between m and n (m,n are user inputs) except the ones 
 which are divisible by 3. [Hint: Use continue statement within a loop] Sample input/output:
 Enter m: 99
 Enter n: 116
-All even numbers between 100 and 112 except those divisible by 3 are: 100, 104, 106, 110, 112, 116,"	FALSE	TRUE		"#include <iostream>
+All even numbers between 100 and 112 except those divisible by 3 are: 100, 104, 106, 110, 112, 116,"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -2568,32 +2725,34 @@ int main()
     cin >> n;
     if (m >= n)
     {
-        for (n; n <= m; n++)
-        {
-            if (n % 2 == 0 and n % 3 != 0)
-            {
-                cout << n << "" "";
-            }
-        }
+for (n; n <= m; n++)
+{
+    if (n % 2 == 0 and n % 3 != 0)
+    {
+cout << n << "" "";
+    }
+}
     }
     else if (n > m)
     {
-        for (m; m <= n; m++)
-        {
-            if (m % 2 == 0 and m % 3 != 0)
-            {
-                cout << m << "" "";
-            }
-        }
+for (m; m <= n; m++)
+{
+    if (m % 2 == 0 and m % 3 != 0)
+    {
+cout << m << "" "";
+    }
+}
     }
     return 0;
-}"
+}
+
+
 "6. Write a C program that asks a shopper to enter amount (in kg) and total price of sugar he bought from 
 different places. If the shopper mistakenly enters a negative number as amount/price, it prints an error message
  “Invalid input, enter a positive number” and prompts the shopper to give another input. When the shopper
  enters 0 as an amount then the program terminates and shows the shopper total amount, price and average 
 price of sugar per kg. [Hint: Use continue statement within a loop] Sample input/output:
-Enter amount (in kg): 5        
+Enter amount (in kg): 5
 Enter price: 350
 Enter amount (in kg): -3
 Invalid input, enter a positive number
@@ -2604,7 +2763,7 @@ Enter amount (in kg): 10
 Enter price: 650
 Enter amount (in kg): 0
 Total amount (in kg): 15, Total price: 1000, Average price per kg: 66.67
-"	FALSE	TRUE		"// 6.        Write a C program that asks a shopper to enter amount (in kg) and total price of sugar he bought from different places. If the shopper mistakenly enters a negative number as amount/price, it prints an error message “Invalid input, enter a positive number” and prompts the shopper to give another input. When the shopper enters 0 as an amount then the program terminates and shows the shopper total amount, price and average price of sugar per kg. [Hint: Use continue statement within a loop] Sample input/output:
+"			"// 6.Write a C program that asks a shopper to enter amount (in kg) and total price of sugar he bought from different places. If the shopper mistakenly enters a negative number as amount/price, it prints an error message “Invalid input, enter a positive number” and prompts the shopper to give another input. When the shopper enters 0 as an amount then the program terminates and shows the shopper total amount, price and average price of sugar per kg. [Hint: Use continue statement within a loop] Sample input/output:
 // Enter amount (in kg): 5
 // Enter price: 350
 // Enter amount (in kg): -3
@@ -2624,38 +2783,40 @@ int main()
     int amount = 1, price, total_price = 0, total_amount = 0;
     while (amount != 0)
     {
-        cout << ""\nEnter amount(in kg): "";
-        cin >> amount;
-        if(amount ==0){
-            break;
-        }
-        if (amount < 0)
-        {
-            cout << ""Invalid input, enter a positive number"" << endl;
-            continue;
-        }
-        cout << ""Enter price: "";
-        cin >> price;
-        if (price < 0)
-        {
-            cout << ""Invalid input, enter a positive number"" << endl;
-            continue;
-        }
-        total_amount += amount;
-        total_price += price;
+cout << ""\nEnter amount(in kg): "";
+cin >> amount;
+if(amount ==0){
+    break;
+}
+if (amount < 0)
+{
+    cout << ""Invalid input, enter a positive number"" << endl;
+    continue;
+}
+cout << ""Enter price: "";
+cin >> price;
+if (price < 0)
+{
+    cout << ""Invalid input, enter a positive number"" << endl;
+    continue;
+}
+total_amount += amount;
+total_price += price;
     }
     cout << ""\nTotal amount (in kg): "" << total_amount << endl;
     cout << ""Total price : "" << total_price << endl;
     cout << ""Average price per kg: "" << total_price / total_amount << endl;
     return 0;
-}"
+}
+
+
 "1. Square pattern for N lines. E.g. for N=4:
 
 ****
 ****
 ****
 ****
-"	FALSE	TRUE		"// 1. Square pattern for N lines. E.g. for N=4:
+"			"// 1. Square pattern for N lines. E.g. for N=4:
 
 // ****
 // ****
@@ -2671,21 +2832,23 @@ int main()
     cin >> n;
     for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < n; j++)
-        {
-            cout << ""*"";
-        }
-        cout << endl;
+for (int j = 0; j < n; j++)
+{
+    cout << ""*"";
+}
+cout << endl;
     }
     return 0;
-}"
+}
+
+
 "2. Hollow square pattern for N lines. E.g. for N=4:
 
 ****
 *   *
 *   *
 ****
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -2694,18 +2857,18 @@ int main()
     cin >> n;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= n; j++)
-        {
-            if (i == 1 or i == n or j == 1 or j == n)
-            {
-                cout << ""*"";
-            }
-            else
-            {
-                cout << "" "";
-            }
-        }
-        cout << endl;
+for (int j = 1; j <= n; j++)
+{
+    if (i == 1 or i == n or j == 1 or j == n)
+    {
+cout << ""*"";
+    }
+    else
+    {
+cout << "" "";
+    }
+}
+cout << endl;
     }
     return 0;
 }
@@ -2719,21 +2882,21 @@ int main()
     cin >> n;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= n; j++)
-        {
-            if (i == 1 or i == n)
-            {
-                cout << ""-"";
-            }
-            else if (j == 1 or j == n)
-            {cout<<""|"";
-            }
-            else
-            {
-                cout << "" "";
-            }
-        }
-        cout << endl;
+for (int j = 1; j <= n; j++)
+{
+    if (i == 1 or i == n)
+    {
+cout << ""-"";
+    }
+    else if (j == 1 or j == n)
+    {cout<<""|"";
+    }
+    else
+    {
+cout << "" "";
+    }
+}
+cout << endl;
     }
     return 0;
 }
@@ -2757,31 +2920,33 @@ int main()
     cin >> n;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= n; j++)
-        {
-            if (i == 1 or i == n)
-            {
-                cout << ""-"";
-            }
-            else if (j == 1 or j == n)
-            {cout<<""|"";
-            }
-            else
-            {
-                cout << ""*"";
-            }
-        }
-        cout << endl;
+for (int j = 1; j <= n; j++)
+{
+    if (i == 1 or i == n)
+    {
+cout << ""-"";
+    }
+    else if (j == 1 or j == n)
+    {cout<<""|"";
+    }
+    else
+    {
+cout << ""*"";
+    }
+}
+cout << endl;
     }
     return 0;
-}"
+}
+
+
 "Try yourself 1a: Write a C program to print a rectangle pattern of size m*n. For e.g. for m=10, n=5 print:
 **********
 **********
 **********
 **********
 **********
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 
 int main()
@@ -2793,21 +2958,23 @@ int main()
     cin >> m;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= m; j++)
-        {
-            cout << "" + "";
-        }
-        cout << endl;
+for (int j = 1; j <= m; j++)
+{
+    cout << "" + "";
+}
+cout << endl;
     }
     return 0;
-}"
+}
+
+
 "Try yourself 2a: Write a C program to print a hollow rectangle pattern of size m*n. For e.g. for m=10, n=5 print:
 **********
-*           *
-*           *
-*           *
+*   *
+*   *
+*   *
 **********
-"	FALSE	TRUE		"Enter number of rows: 8
+"			"Enter number of rows: 8
 Enter number of colums: 4
 ----
 |  |
@@ -2829,21 +2996,21 @@ int main()
     cin >> m;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= m; j++)
-        {
-            if (i == 1 or i == n)
-            {
-                cout << ""-"";
-            }
-            else if (j == 1 or j == m)
-            {cout<<""|"";
-            }
-            else
-            {
-                cout << "" "";
-            }
-        }
-        cout << endl;
+for (int j = 1; j <= m; j++)
+{
+    if (i == 1 or i == n)
+    {
+cout << ""-"";
+    }
+    else if (j == 1 or j == m)
+    {cout<<""|"";
+    }
+    else
+    {
+cout << "" "";
+    }
+}
+cout << endl;
     }
     return 0;
 }
@@ -2860,21 +3027,23 @@ int main()
     cin >> m;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= m; j++)
-        {
-            if (i == 1 or i == n or j == 1 or j == m)
-            {
-                cout << ""69"";
-            }
-            else
-            {
-                cout << ""  "";
-            }
-        }
-        cout << endl;
+for (int j = 1; j <= m; j++)
+{
+    if (i == 1 or i == n or j == 1 or j == m)
+    {
+cout << ""69"";
+    }
+    else
+    {
+cout << ""  "";
+    }
+}
+cout << endl;
     }
     return 0;
-}"
+}
+
+
 "Enter number of rows: 8
 +
 ++
@@ -2883,7 +3052,7 @@ int main()
 +++++
 ++++++
 +++++++
-++++++++"	FALSE	TRUE		"#include <iostream>
+++++++++"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -2894,21 +3063,23 @@ int main()
     // cin >> m;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= i; j++)
-        {
-            // if (i == 1 or i == n or j == 1 or j == m)
-            // {
-            cout << ""+"";
-            // }
-            // else
-            // {
-            //     cout << ""  "";
-            // }
-        }
-        cout << endl;
+for (int j = 1; j <= i; j++)
+{
+    // if (i == 1 or i == n or j == 1 or j == m)
+    // {
+    cout << ""+"";
+    // }
+    // else
+    // {
+    //     cout << ""  "";
+    // }
+}
+cout << endl;
     }
     return 0;
-}"
+}
+
+
 "Enter number of rows: 8
 +
 +
@@ -2917,7 +3088,7 @@ int main()
 +
 +
 +
-++++++++"	FALSE	TRUE		"#include <iostream>
+++++++++"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -2928,21 +3099,23 @@ int main()
     // cin >> m;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= n; j++)//  j<=i
-        {
-            if (i == n or j == 1)
-            {
-                cout << ""+"";
-            }
-            else
-            {
-                cout << ""  "";
-            }
-        }
-        cout << endl;
+for (int j = 1; j <= n; j++)//  j<=i
+{
+    if (i == n or j == 1)
+    {
+cout << ""+"";
+    }
+    else
+    {
+cout << ""  "";
+    }
+}
+cout << endl;
     }
     return 0;
-}"
+}
+
+
 "Try yourself 2b: Write a C program to print a hollow right angled triangle of height n. For e.g. for n=7 print:
 *
 **
@@ -2951,14 +3124,14 @@ int main()
 *   *
 *    *
 *******
-"	FALSE	TRUE		"Enter number of rows: 8
+"			"Enter number of rows: 8
 69
 69 69
 69    69
-69        69
-69            69
-69                 69
-69                     69
+6969
+69    69
+69 69
+69     69
 6969696969696969
 
 Enter number of rows: 8
@@ -2967,8 +3140,8 @@ Enter number of rows: 8
 + +
 +   +
 +      +
-+        +
-+          +
+++
++  +
 ++++++++
 
 #include <iostream>
@@ -2980,22 +3153,24 @@ int main()
     cin >> n;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= i; j++)//  j<=n
-        {
-            if (i == n or j == 1 or i==j)
-            {
-                cout << ""69"";
-            }
-            else
-            {
-                cout << ""  "";
-            }
-        }
-        cout << endl;
+for (int j = 1; j <= i; j++)//  j<=n
+{
+    if (i == n or j == 1 or i==j)
+    {
+cout << ""69"";
+    }
+    else
+    {
+cout << ""  "";
+    }
+}
+cout << endl;
     }
     return 0;
-}"
-	FALSE	TRUE		"#include <iostream>
+}
+
+
+			"#include <iostream>
 using namespace std;
 
 int main()
@@ -3006,32 +3181,34 @@ int main()
     int space = n - 1;
     for (int i = 1; i <= n; i++)
     {
-        for(int j = 1; j <= space; j++){
-            cout << "" "" ;
-        }
-        for (int j = 1; j <= n; j++)
-        {
-            if (i == j or i == n or j == 1 or j == n - i + 1 or i == 1 or j == n or i == n / 2 or j == n / 2)
-                cout << ""O"";
-            else
-            {
-                cout << "" "";
-            }
-        }
-        space--;
-        cout << endl;
+for(int j = 1; j <= space; j++){
+    cout << "" "" ;
+}
+for (int j = 1; j <= n; j++)
+{
+    if (i == j or i == n or j == 1 or j == n - i + 1 or i == 1 or j == n or i == n / 2 or j == n / 2)
+cout << ""O"";
+    else
+    {
+cout << "" "";
+    }
+}
+space--;
+cout << endl;
     }
     return 0;
-}"
+}
+
+
 "Enter number of rows: 8
 69
   69
     69
       69
-        69
-          69
-            69
-              69"	FALSE	TRUE		"#include <iostream>
+69
+  69
+    69
+      69"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -3040,21 +3217,23 @@ int main()
     cin >> n;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= i; j++) // j<=i
-        {
-            if (j == i) // i==j
-            {
-                cout << ""69"";
-            }
-            else
-            {
-                cout << ""  "";
-            }
-        }
-        cout << endl;
+for (int j = 1; j <= i; j++) // j<=i
+{
+    if (j == i) // i==j
+    {
+cout << ""69"";
+    }
+    else
+    {
+cout << ""  "";
+    }
+}
+cout << endl;
     }
     return 0;
-}"
+}
+
+
 "Enter number of rows: 9
 111111111
 22222222
@@ -3064,7 +3243,7 @@ int main()
 6666
 777
 88
-9"	FALSE	TRUE		"#include <iostream>
+9"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -3073,19 +3252,21 @@ int main()
     cin >> n;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= (n+1) - i; j++)
-        {
-            // if ( j == (n - i))
-            // {
-            // }
-        cout << i;
-            // else
-        }
+for (int j = 1; j <= (n+1) - i; j++)
+{
+    // if ( j == (n - i))
+    // {
+    // }
+cout << i;
+    // else
+}
 
-        cout << endl;
+cout << endl;
     }
     return 0;
-}"
+}
+
+
 "Enter number of rows: 8
 12345678
 1234567
@@ -3094,7 +3275,7 @@ int main()
 1234
 123
 12
-1"	FALSE	TRUE		"#include <iostream>
+1"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -3103,19 +3284,21 @@ int main()
     cin >> n;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= (n+1) - i; j++)
-        {
-            // if ( j == (n - i))
-            // {
-            // }
-        cout << j;
-            // else
-        }
+for (int j = 1; j <= (n+1) - i; j++)
+{
+    // if ( j == (n - i))
+    // {
+    // }
+cout << j;
+    // else
+}
 
-        cout << endl;
+cout << endl;
     }
     return 0;
-}"
+}
+
+
 "Enter number of rows: 8
        +
       +
@@ -3134,7 +3317,7 @@ Enter number of rows: 8
    5
   6
  7
-8"	FALSE	TRUE		"#include <iostream>
+8"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -3143,32 +3326,34 @@ int main()
     cin >> n;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= n - i; j++)
-        {
-            // if ( j == (n - i))
-            // {
-            cout << "" "";
-            // }
-            // else
-        }
+for (int j = 1; j <= n - i; j++)
+{
+    // if ( j == (n - i))
+    // {
+    cout << "" "";
+    // }
+    // else
+}
 
-        cout <<i;
+cout <<i;
 
-        cout << endl;
+cout << endl;
     }
     return 0;
-}"
+}
+
+
 "Enter number of rows: 10
 
-69              69
-  69          69  
+69      69
+  69  69  
     69      69    
       69  69      
-        69        
+69
       69  69      
     69      69    
-  69          69  
-69              69"	FALSE	TRUE		"#include <iostream>
+  69  69  
+69      69"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -3178,28 +3363,30 @@ int main()
     cout<<endl;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j < n; j++)
-        {
-            if (i == j or i == (n - j))
-            {
-                cout << ""69"";
-            }
-            else
-            {
-                cout << ""  "";
-            }
-        }
-        cout << endl;
+for (int j = 1; j < n; j++)
+{
+    if (i == j or i == (n - j))
+    {
+cout << ""69"";
+    }
+    else
+    {
+cout << ""  "";
+    }
+}
+cout << endl;
     }
     return 0;
-}"
+}
+
+
 "3. Rhombus pattern for N lines. E.g. for N=4:
 
    ****
   ****
  ****
 ****
-"	FALSE	TRUE		"// 3. Rhombus pattern for N lines. E.g. for N=4:
+"			"// 3. Rhombus pattern for N lines. E.g. for N=4:
 
 //    ****
 //   ****
@@ -3215,26 +3402,28 @@ int main()
     cin >> n;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= n - i; j++)
-        {
-            cout << "" "";
-        }
-        for (int j = 1; j <= n; j++)
-        {
-            cout << ""+"";
-        }
-        cout << endl;
+for (int j = 1; j <= n - i; j++)
+{
+    cout << "" "";
+}
+for (int j = 1; j <= n; j++)
+{
+    cout << ""+"";
+}
+cout << endl;
     }
     return 0;
-}"
-"1.        Write a C program to print hollow rhombus star pattern of N lines. E.g. for N=5 print:
+}
+
+
+"1.Write a C program to print hollow rhombus star pattern of N lines. E.g. for N=5 print:
     *****
    *   *
   *   *
  *   *
 *****
 
-"	FALSE	TRUE		"// 1.        Write a C program to print hollow rhombus star pattern of N lines. E.g. for N=5 print:
+"			"// 1.Write a C program to print hollow rhombus star pattern of N lines. E.g. for N=5 print:
 //     *****
 //    *   *
 //   *   *
@@ -3250,37 +3439,39 @@ int main()
     cin >> n;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= n - i; j++)
-        {
+for (int j = 1; j <= n - i; j++)
+{
 
-            cout << "" "";
-        }
-        for (int j = 1; j <= n; j++)
-        {
-            if (i == 1 or i == n or j == 1 or j == n)
-            {
-                cout << ""+"";
-            }
-            else
-            {
-                cout << "" "";
-            }
-        }
-        cout << endl;
+    cout << "" "";
+}
+for (int j = 1; j <= n; j++)
+{
+    if (i == 1 or i == n or j == 1 or j == n)
+    {
+cout << ""+"";
+    }
+    else
+    {
+cout << "" "";
+    }
+}
+cout << endl;
     }
     return 0;
-}"
-"1.        Write a C program to print a hollow parallelogram pattern of size m*n. E.g for m=10, n=5 print:
+}
+
+
+"1.Write a C program to print a hollow parallelogram pattern of size m*n. E.g for m=10, n=5 print:
     **********
-   *           *
-  *           *
- *           *
+   *   *
+  *   *
+ *   *
 **********
-"	FALSE	TRUE		"Enter number of rows: 4
+"			"Enter number of rows: 4
 Enter number of colums: 8
    ++++++++
-  +             +
- +            +
+  +     +
+ +    +
 ++++++++
 
 #include <iostream>
@@ -3294,35 +3485,37 @@ int main()
     cin >> m;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= n - i; j++)
-        {
+for (int j = 1; j <= n - i; j++)
+{
 
-            cout << "" "";
-        }
-        for (int j = 1; j <= m; j++)
-        {
-            if (i == 1 or i == n or j == 1 or j == m)
-            {
-                cout << ""+"";
-            }
-            else
-            {
-                cout << "" "";
-            }
-        }
-        cout << endl;
+    cout << "" "";
+}
+for (int j = 1; j <= m; j++)
+{
+    if (i == 1 or i == n or j == 1 or j == m)
+    {
+cout << ""+"";
+    }
+    else
+    {
+cout << "" "";
+    }
+}
+cout << endl;
     }
     return 0;
-}"
-"2.        Write a C program to print a right justified hollow right angled triangle of height n. For e.g. for n=7 print:
-        *
+}
+
+
+"2.Write a C program to print a right justified hollow right angled triangle of height n. For e.g. for n=7 print:
+*
      *  *
     *   *
    *    *
   *     *
  *      *
 *******
-"	FALSE	TRUE		"// 2.        Write a C program to print a right justified hollow right angled triangle of height n. For e.g. for n=7 print:
+"			"// 2.Write a C program to print a right justified hollow right angled triangle of height n. For e.g. for n=7 print:
 //       *
 //      **
 //     * *
@@ -3339,26 +3532,28 @@ int main()
     cin >> n;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= n; j++)
-        {
-            if (i == n or j == n or i == (n + 1) - j or j == (n + 1) - i)
-                cout << ""+"";
-            else
-            {
-                cout << "" "";
-            }
-        }
-        cout << endl;
+for (int j = 1; j <= n; j++)
+{
+    if (i == n or j == n or i == (n + 1) - j or j == (n + 1) - i)
+cout << ""+"";
+    else
+    {
+cout << "" "";
+    }
+}
+cout << endl;
     }
 
     return 0;
-}"
-"        *
+}
+
+
+"*
        * *
       * * *
      * * * *
     * * * * *
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -3368,28 +3563,30 @@ int main()
     int space = n - 1;
     for (i = 1; i <= n; i++)
     {
-        for (j = 1; j <= space; j++)
-        {
-            cout << "" "";
-        }
-        {
-            for (j = 1; j <= i; j++)
-            {
-                cout << ""+ "";
-            }
-            cout << endl;
-            space--;
-        }
+for (j = 1; j <= space; j++)
+{
+    cout << "" "";
+}
+{
+    for (j = 1; j <= i; j++)
+    {
+cout << ""+ "";
+    }
+    cout << endl;
+    space--;
+}
     }
     return 0;
-}"
+}
+
+
 " 
-        1
+1
       1 2
      1 2 3
    1 2 3 4
   1 2 3 4 5
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -3399,24 +3596,26 @@ int main()
     int space = n - 1;
     for (i = 1; i <= n; i++)
     {
-        for (j = 1; j <= space; j++)
-        {
-            cout << "" "";
-        }
-        {
-            for (j = 1; j <= i; j++)
-            {
-                cout << j<<"" "";
-            }
-            cout << endl;
-            space--;
-        }
+for (j = 1; j <= space; j++)
+{
+    cout << "" "";
+}
+{
+    for (j = 1; j <= i; j++)
+    {
+cout << j<<"" "";
+    }
+    cout << endl;
+    space--;
+}
     }
     return 0;
-}"
+}
+
+
 "3. Write a C program to compute the sum of the following series using nested loop 
 1/1+(1/1+1/2)+(1/1+1/2+1/3)+⋯+(1/1+1/2+⋯+1/n)
-"	FALSE	TRUE		"// 3. Write a C program to compute the sum of the following series using nested loop
+"			"// 3. Write a C program to compute the sum of the following series using nested loop
 // 1/1+(1/1+1/2)+(1/1+1/2+1/3)+⋯+(1/1+1/2+⋯+1/n)
 
 #include <iostream>
@@ -3429,14 +3628,16 @@ int main()
     cin >> n;
     for (i = 1; i <= n; i++)
     {
-        term = 0;
-        for (j = 1; j <= i; j++)
-            term += (1.0 / j);
-        sum += term;
+term = 0;
+for (j = 1; j <= i; j++)
+    term += (1.0 / j);
+sum += term;
     }
     cout << sum << endl;
     return 0;
-}"
+}
+
+
 "  1.Write separate C programs to print the following patterns (read number of rows from user):
    
 
@@ -3444,14 +3645,14 @@ int main()
      * * * *
       * * *
        * *
-        *  
-            
+*  
+    
 
  
 
       
 
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -3460,36 +3661,38 @@ int main()
     cin >> n;
     for (i = 1; i <= n; i++)
     {
-        for (j = 1; j < i; j++)
-        {
-            cout << "" "";
-        }
-        for (j = 1; j <= 1 + n - i; j++)
-        {
-            cout << ""+ "";
-        }
-        cout << endl;
+for (j = 1; j < i; j++)
+{
+    cout << "" "";
+}
+for (j = 1; j <= 1 + n - i; j++)
+{
+    cout << ""+ "";
+}
+cout << endl;
     }
     return 0;
-}"
+}
+
+
 "       A
      A B
     A B C
    A B C D
   A B C D E 
-             
-"	FALSE	TRUE		"Enter number of rows: 30
-                             A 
-                            A B 
-                           A B C 
-                          A B C D 
-                         A B C D E 
-                        A B C D E F 
-                       A B C D E F G 
-                      A B C D E F G H 
-                     A B C D E F G H I 
-                    A B C D E F G H I J 
-        
+     
+"			"Enter number of rows: 30
+     A 
+    A B 
+   A B C 
+  A B C D 
+ A B C D E 
+A B C D E F 
+       A B C D E F G 
+      A B C D E F G H 
+     A B C D E F G H I 
+    A B C D E F G H I J 
+
 
 #include <iostream>
 using namespace std;
@@ -3501,26 +3704,26 @@ int main()
     int space = n - 1;
     for (i = 1; i <= n; i++)
     {
-        for (j = 1; j <= space; j++)
-        {
-            cout << "" "";
-        }
-        {
-            for (j = 1; j <= i; j++)
-            {
-                cout << (char)(64 + j) << "" "";
-            }
-            cout << endl;
-            space--;
-        }
+for (j = 1; j <= space; j++)
+{
+    cout << "" "";
+}
+{
+    for (j = 1; j <= i; j++)
+    {
+cout << (char)(64 + j) << "" "";
+    }
+    cout << endl;
+    space--;
+}
     }
     return 0;
 } "
-"          A
+"  A
        ABC
       ABCDE
     ABCDEFG
-  ABCDEFGHI"	FALSE	TRUE		"#include <iostream>
+  ABCDEFGHI"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -3530,25 +3733,27 @@ int main()
     space = n - 1;
     for (i = 1; i <= n; i+=2)
     {
-        for (j = 1; j <= space; j++)
-        {
-            cout << "" "";
-        }
-        for (j = 1; j <= i; j++)
-        {
-            cout << (char)(j + 64);
-        }
-        space--;
-        cout << endl;
+for (j = 1; j <= space; j++)
+{
+    cout << "" "";
+}
+for (j = 1; j <= i; j++)
+{
+    cout << (char)(j + 64);
+}
+space--;
+cout << endl;
     }
     return 0;
-}"
+}
+
+
 "*****
  *  * 
   * * 
    ** 
     *
-"	FALSE	TRUE		"// *****
+"			"// *****
 //  *  *
 //   * *
 //    **
@@ -3563,31 +3768,33 @@ int main()
     cin >> n;
     for (i = 1; i <= n; i++)
     {
-        for (j = 1; j <= n; j++)
-        {
-            if (i == 1 or i == j or j == n)
-                cout << ""+"";
-            else
-            {
-                cout << ""-"";
-            }
-        }
-        cout << endl;
+for (j = 1; j <= n; j++)
+{
+    if (i == 1 or i == j or j == n)
+cout << ""+"";
+    else
+    {
+cout << ""-"";
+    }
+}
+cout << endl;
     }
     return 0;
-}"
+}
+
+
 "     A
    B B
   C C C
  D D D D
 E E E E E
-"	FALSE	TRUE		"//     A
+"			"//     A
 //    B B
 //   C C C
 //  D D D D
 // E E E E E
 
-        
+
 
 #include <iostream>
 using namespace std;
@@ -3599,18 +3806,18 @@ int main()
     int space = n - 1;
     for (i = 1; i <= n; i++)
     {
-        for (j = 1; j <= space; j++)
-        {
-            cout << "" "";
-        }
-        {
-            for (j = 1; j <= i; j++)
-            {
-                cout << (char)(64 + i) << "" "";
-            }
-            cout << endl;
-            space--;
-        }
+for (j = 1; j <= space; j++)
+{
+    cout << "" "";
+}
+{
+    for (j = 1; j <= i; j++)
+    {
+cout << (char)(64 + i) << "" "";
+    }
+    cout << endl;
+    space--;
+}
     }
     return 0;
 } "
@@ -3619,7 +3826,7 @@ int main()
 456
 7890
 12345
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -3628,21 +3835,23 @@ int main()
     cin >> n;
     for (i = 1; i <= n; i++)
     {
-        for (j = 0; j < i; j++)
-        {
-            cout << number;
-            number = (number + 1) % 10;
-        }
-        cout << endl;
+for (j = 0; j < i; j++)
+{
+    cout << number;
+    number = (number + 1) % 10;
+}
+cout << endl;
     }
     return 0;
-}"
+}
+
+
 "     1
    234
   56789
  0123456
 789012345
-"	FALSE	TRUE		"#include <iostream>
+"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -3652,17 +3861,17 @@ int main()
     space = n - 1;
     for (i = 1; i <= n; i += 2)
     {
-        for (j = 1; j <= space; j++)
-        {
-            cout << "" "";
-        }
-        for (j = 1; j <= i; j++)
-        {
-            cout << number;
-            number = (number + 1) % 10;
-        }
-        space--;
-        cout << endl;
+for (j = 1; j <= space; j++)
+{
+    cout << "" "";
+}
+for (j = 1; j <= i; j++)
+{
+    cout << number;
+    number = (number + 1) % 10;
+}
+space--;
+cout << endl;
     }
     return 0;
 }
@@ -3684,27 +3893,27 @@ int main()
     space = n - 1;
     for (i = 1; i <= n; i ++)
     {
-        for (j = 1; j <= space; j++)
-        {
-            cout << "" "";
-        }
-        for (j = 1; j <= 2*i-1; j++)
-        {
-            cout << number;
-            number = (number + 1) % 10;
-        }
-        space--;
-        cout << endl;
+for (j = 1; j <= space; j++)
+{
+    cout << "" "";
+}
+for (j = 1; j <= 2*i-1; j++)
+{
+    cout << number;
+    number = (number + 1) % 10;
+}
+space--;
+cout << endl;
     }
     return 0;
 }
 "
-"             0
-           01
-         010
+"     0
+   01
+ 010
        0101
      01010
-"	FALSE	TRUE		"//      0
+"			"//      0
 //     01
 //    010
 //   0101
@@ -3720,31 +3929,33 @@ int main()
     int space = n - 1;
     for (i = 1; i <= n; i++)
     {
-        for (j = 1; j <= space; j++)
-        {
-            cout << "" "";
-        }
-        {
-            for (j = 1; j <= i; j++)
-            {
-                if (j % 2 == 0)
-                    cout << ""1"";
-                else
-                {
-                    cout << ""0"";
-                }
-            }
-            cout << endl;
-            space--;
-        }
+for (j = 1; j <= space; j++)
+{
+    cout << "" "";
+}
+{
+    for (j = 1; j <= i; j++)
+    {
+if (j % 2 == 0)
+    cout << ""1"";
+else
+{
+    cout << ""0"";
+}
+    }
+    cout << endl;
+    space--;
+}
     }
     return 0;
-}"
+}
+
+
 "*********
  *******
   *****
    ***
-    *"	FALSE	TRUE		"12345678901
+    *"			"12345678901
  234567890
   1234567
    89012
@@ -3759,16 +3970,16 @@ int main()
     // cin >> n;
     for (i = 1; i <= n; i++)
     {
-        for (j = 1; j < i; j++)
-        {
-            cout << "" "";
-        }
-        for (j = 1; j <2*(n-i); j++)
-        {
-            cout << number;
-            number = (number + 1) % 10;
-        }
-        cout << endl;
+for (j = 1; j < i; j++)
+{
+    cout << "" "";
+}
+for (j = 1; j <2*(n-i); j++)
+{
+    cout << number;
+    number = (number + 1) % 10;
+}
+cout << endl;
     }
     return 0;
 }
@@ -3789,23 +4000,23 @@ int main()
     cin >> n;
     for (i = 1; i <= n; i++)
     {
-        for (j = 1; j < i; j++)
-        {
-            cout << ""-"";
-        }
-        for (j = 1; j <=2*(n-i)+1; j++)
-        {
-            cout << '*';
-        //    number = (number + 1) % 10;
-        }
-        cout << endl;
+for (j = 1; j < i; j++)
+{
+    cout << ""-"";
+}
+for (j = 1; j <=2*(n-i)+1; j++)
+{
+    cout << '*';
+//    number = (number + 1) % 10;
+}
+cout << endl;
     }
     return 0;
 }
 "
-"             +
-           ++
-         +++
+"     +
+   ++
+ +++
        ++++
      +++++
    ++++++
@@ -3813,9 +4024,9 @@ int main()
    ++++++
      +++++
        ++++
-         +++
-           ++ 
-             +   "	FALSE	TRUE		"#include <iostream>
+ +++
+   ++ 
+     +   "			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -3825,31 +4036,31 @@ int main()
     int space = n - 1;
     for (i = 1; i <= n; i++)
     {
-        for (j = 1; j <= space; j++)
-        {
-            cout << "" "";
-        }
-        {
-            for (j = 1; j <= i; j++)
-            {
-                cout << ""+"";
-            }
-            cout << endl;
-            space--;
-        }
+for (j = 1; j <= space; j++)
+{
+    cout << "" "";
+}
+{
+    for (j = 1; j <= i; j++)
+    {
+cout << ""+"";
+    }
+    cout << endl;
+    space--;
+}
     }
     for (i = 1; i <= n; i++)
     {
 
-        for (j = 1; j <= i; j++)
-        {
-            cout << "" "";
-        }
-        for (j = 1; j <= n - i; j++)
-        {
-            cout << ""+"";
-        }
-        cout << endl;
+for (j = 1; j <= i; j++)
+{
+    cout << "" "";
+}
+for (j = 1; j <= n - i; j++)
+{
+    cout << ""+"";
+}
+cout << endl;
     }
     return 0;
 }
@@ -3860,7 +4071,7 @@ int main()
 ****
 ***
 **
-*"	FALSE	TRUE		"// *
+*"			"// *
 // **
 // ***
 // ****
@@ -3879,22 +4090,24 @@ int main()
     cin >> n;
     for (i = 1; i <= n; i++)
     {
-        for (j = 1; j <= i; j++)
-        {
-            cout << ""+"";
-        }
-        cout << endl;
+for (j = 1; j <= i; j++)
+{
+    cout << ""+"";
+}
+cout << endl;
     }
     for (i = 1; i <= n; i++)
     {
-        for (j = 1; j <= n - i; j++)
-        {
-            cout << ""+"";
-        }
-        cout << endl;
+for (j = 1; j <= n - i; j++)
+{
+    cout << ""+"";
+}
+cout << endl;
     }
     return 0;
-}"
+}
+
+
 "      * 
     *** 
   *****
@@ -3903,7 +4116,7 @@ int main()
  *******
   *****
    ***
-    *"	FALSE	TRUE		"#include <iostream>
+    *"			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -3913,35 +4126,37 @@ int main()
     int space = n - 1;
     for (i = 1; i <= n; i++)
     {
-        for (j = 1; j <= space; j++)
-        {
-            cout << "" "";
-        }
-        {
-            for (j = 1; j <= i; j++)
-            {
-                cout << ""+ "";
-            }
-            cout << endl;
-            space--;
-        }
+for (j = 1; j <= space; j++)
+{
+    cout << "" "";
+}
+{
+    for (j = 1; j <= i; j++)
+    {
+cout << ""+ "";
+    }
+    cout << endl;
+    space--;
+}
     }
     for (i = 1; i <= n; i++)
     {
 
-        for (j = 1; j <= i; j++)
-        {
-            cout << "" "";
-        }
-        for (j = 1; j <= n - i; j++)
-        {
-            cout << ""+ "";
-        }
-        cout << endl;
+for (j = 1; j <= i; j++)
+{
+    cout << "" "";
+}
+for (j = 1; j <= n - i; j++)
+{
+    cout << ""+ "";
+}
+cout << endl;
     }
     return 0;
-}"
-1.        C program to print all perfect numbers between 1 to n:	FALSE	TRUE		"#include <iostream>
+}
+
+
+1.C program to print all perfect numbers between 1 to n:			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -3955,7 +4170,7 @@ int main()
     {
       if (i % j == 0)
       {
-        sum += j;
+sum += j;
       }
     }
     if (sum == i)
@@ -3964,8 +4179,10 @@ int main()
     }
   }
   return 0;
-}"
-2. C program to print all prime numbers between 1 and n.	FALSE	TRUE		"#include <iostream>
+}
+
+
+2. C program to print all prime numbers between 1 and n.			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -3979,8 +4196,8 @@ int main()
     {
       if (i % j == 0)
       {
-        prime = 1;
-        break;
+prime = 1;
+break;
       }
     }
     if (prime == 0)
@@ -3989,8 +4206,10 @@ int main()
     }
   }
   return 0;
-}"
-Write a program that prints first n prime numbers (n is input). E.g. for n = 5 it should print: 2,3,5,7,11,	FALSE	TRUE		"#include <iostream>
+}
+
+
+Write a program that prints first n prime numbers (n is input). E.g. for n = 5 it should print: 2,3,5,7,11,			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -4005,8 +4224,8 @@ int main()
     {
       if (i % j == 0)
       {
-        prime = 1;
-        break;
+prime = 1;
+break;
       }
     }
     if (prime == 0)
@@ -4015,20 +4234,22 @@ int main()
       sum = sum + 1;
       if (sum < n)
       {
-        cout << "","";
+cout << "","";
       }
       if (sum == n)
       {
-        return 0;
+return 0;
       }
     }
   }
-}"
-"1.        Write a C program to print all prime numbers between 1 and n in reverse order (n is an input). 
+}
+
+
+"1.Write a C program to print all prime numbers between 1 and n in reverse order (n is an input). 
 Sample input/output:
 Enter n: 20
 All prime numbers between 1 and 20 (in reverse order):19, 17, 13, 11, 7, 5, 3, 2,
-"	FALSE	TRUE		"// 1.        Write a C program to print all prime numbers between 1 and n in reverse order (n is an input).
+"			"// 1.Write a C program to print all prime numbers between 1 and n in reverse order (n is an input).
 //  Sample input/output:
 //  Enter n: 20
 // All prime numbers between 1 and 20 (in reverse order):19, 17, 13, 11, 7, 5, 3, 2,
@@ -4048,8 +4269,8 @@ int main()
     {
       if (i % j == 0)
       {
-        prime = 1;
-        break;
+prime = 1;
+break;
       }
     }
     if (prime == 0)
@@ -4057,13 +4278,15 @@ int main()
       cout << "" "" << i;
       if (2 < i)
       {
-        cout << "","";
+cout << "","";
       }
     }
   }
   return 0;
-}"
-2.Write a C program to compute and print the sum of all prime numbers between m and n (m, n are inputs)	FALSE	TRUE		"// 2.        Write a C program to compute and print the sum of all prime numbers between m and n (m, n are inputs)
+}
+
+
+2.Write a C program to compute and print the sum of all prime numbers between m and n (m, n are inputs)			"// 2.Write a C program to compute and print the sum of all prime numbers between m and n (m, n are inputs)
 #include <iostream>
 using namespace std;
 int main()
@@ -4081,8 +4304,8 @@ int main()
     {
       if (m % j == 0)
       {
-        isPrime = 1;
-        break;
+isPrime = 1;
+break;
       }
     }
     if (isPrime == 0)
@@ -4096,7 +4319,7 @@ int main()
   return 0;
 }
 "
-3.        Write a C program to print the first n perfect numbers where n is an input.	FALSE	TRUE		"#include <iostream>
+3.Write a C program to print the first n perfect numbers where n is an input.			"#include <iostream>
 using namespace std;
 int main()
 {
@@ -4111,7 +4334,7 @@ int main()
     {
       if (i % j == 0)
       {
-        sum += j;
+sum += j;
       }
     }
     if (sum == i)
@@ -4120,7 +4343,7 @@ int main()
       count++;
       if (count == n)
       {
-        return 0;
+return 0;
       }
     }
   }
@@ -4146,8 +4369,8 @@ int main()
     {
       if (i % j == 0)
       {
-        isPrime = 1;
-        break;
+isPrime = 1;
+break;
       }
     }
     if (isPrime == 0)
@@ -4157,13 +4380,15 @@ int main()
       count++;
       if (count == n)
       {
-        return 0;
+return 0;
       }
     }
     i++;
   }
-}"
-4.        Write a C program to compute and print the sum of first n perfect numbers.	FALSE	TRUE		"#include <iostream>
+}
+
+
+4.Write a C program to compute and print the sum of first n perfect numbers.			"#include <iostream>
 #include <cmath>
 using namespace std;
 int main()
@@ -4179,8 +4404,8 @@ int main()
     {
       if (i % j == 0)
       {
-        isPrime = 1;
-        break;
+isPrime = 1;
+break;
       }
     }
     if (isPrime == 0)
@@ -4191,15 +4416,17 @@ int main()
       count++;
       if (count == n)
       {
-        cout << endl;
-        cout << ""Sum: "" << sum << endl;
-        return 0;
+cout << endl;
+cout << ""Sum: "" << sum << endl;
+return 0;
       }
     }
     i++;
   }
-}"
-5.        Write a C program to print the n-th perfect number where n is an input.	FALSE	TRUE		"//Write a C program to print the n-th perfect number where n is an input.
+}
+
+
+5.Write a C program to print the n-th perfect number where n is an input.			"//Write a C program to print the n-th perfect number where n is an input.
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -4216,8 +4443,8 @@ int main()
     {
       if (i % j == 0)
       {
-        isPrime = 1;
-        break;
+isPrime = 1;
+break;
       }
     }
     if (isPrime == 0)
@@ -4226,15 +4453,17 @@ int main()
       count++;
       if (count == n)
       {
-        cout << x;
-        return 0;
+cout << x;
+return 0;
       }
     }
     i++;
   }
-}"
+}
+
+
 "1. Write a C program to print all palindrome numbers between m and n 
-(m,  n are inputs). For e.g. 121 is a palindrome since the reverse of 121 = 121; but 152 is not a palindrome."	FALSE	TRUE		"// 1.        Write a C program to print all palindrome numbers between m and n (m,  n are inputs). For e.g. 121 is a palindrome since the reverse of 121 = 121; but 152 is not a palindrome.
+(m,  n are inputs). For e.g. 121 is a palindrome since the reverse of 121 = 121; but 152 is not a palindrome."			"// 1.Write a C program to print all palindrome numbers between m and n (m,  n are inputs). For e.g. 121 is a palindrome since the reverse of 121 = 121; but 152 is not a palindrome.
 #include <iostream>
 using namespace std;
 int main()
@@ -4279,8 +4508,10 @@ int main()
     m++;
   }
   return 0;
-}"
-2.        Write a C program to compute and print the sum of palindrome numbers between m and n	FALSE	TRUE		"// 2.        Write a C program to compute and print the sum of palindrome numbers between m and n
+}
+
+
+2.Write a C program to compute and print the sum of palindrome numbers between m and n			"// 2.Write a C program to compute and print the sum of palindrome numbers between m and n
 #include <iostream>
 using namespace std;
 int main()
@@ -4329,8 +4560,10 @@ int main()
   cout << endl;
   cout << ""sum = "" << sum << endl;
   return 0;
-}"
-3.        Write a C program to print the first n palindrome numbers where n is an input.	FALSE	TRUE		"// 3.        Write a C program to print the first n palindrome numbers where n is an input.
+}
+
+
+3.Write a C program to print the first n palindrome numbers where n is an input.			"// 3.Write a C program to print the first n palindrome numbers where n is an input.
 #include <iostream>
 using namespace std;
 int main()
@@ -4355,8 +4588,10 @@ int main()
     }
   }
   return 0;
-}"
-1. C program illustrating the difference between void and non-void function:	FALSE	TRUE		"// 1.        C program illustrating the difference between void and non-void function:
+}
+
+
+1. C program illustrating the difference between void and non-void function:			"// 1.C program illustrating the difference between void and non-void function:
 #include <iostream>
 using namespace std;
 
@@ -4384,8 +4619,10 @@ int main()
   cout<<""-------------------------------""<<endl;
   fx(""Salfay"", ""Kadha"", 32);
   return 0;
-}"
-2. C program to determine if a given number is odd/even using function	FALSE	TRUE		"// 2.        C program to determine if a given number is odd/even using function
+}
+
+
+2. C program to determine if a given number is odd/even using function			"// 2.C program to determine if a given number is odd/even using function
 #include <iostream>
 using namespace std;
 
@@ -4405,9 +4642,11 @@ int main()
   cin >> num;
   Odd_Even(num);
   return 0;
-}"
+}
+
+
 				
-Try yourself2: Write C program using a function to check if a given number is positive, negative, or zero.	FALSE	TRUE		"// Try yourself2: Write C program using a function to check if a given number is positive, negative, or zero.
+Try yourself2: Write C program using a function to check if a given number is positive, negative, or zero.			"// Try yourself2: Write C program using a function to check if a given number is positive, negative, or zero.
 #include <iostream>
 using namespace std;
 
@@ -4428,8 +4667,10 @@ int main()
   cin >> num;
   Positive_Negative_Zero(num);
   return 0;
-}"
-3.        C program to determine if a given number is prime using function	FALSE	TRUE		"#include <iostream>
+}
+
+
+3.C program to determine if a given number is prime using function			"#include <iostream>
 using namespace std;
 
 bool prime_function(int num)
@@ -4457,8 +4698,10 @@ int main()
   }
   else
     cout << num << "" is not prime"" << endl;
-}"
-Try yourself 3: Write C program using a function to check if a given number is a perfect number.	FALSE	TRUE		"#include <iostream>
+}
+
+
+Try yourself 3: Write C program using a function to check if a given number is a perfect number.			"#include <iostream>
 using namespace std;
 
 bool perfect_function(int num)
@@ -4489,8 +4732,10 @@ int main()
   }
   else
     cout << num << "" is not perfect"" << endl;
-}"
-4. C program to compute sum of all natural numbers between m and n (using function)	FALSE	TRUE		"// 4.        C program to compute sum of all natural numbers between m and n (using function)
+}
+
+
+4. C program to compute sum of all natural numbers between m and n (using function)			"// 4.C program to compute sum of all natural numbers between m and n (using function)
 #include <iostream>
 using namespace std;
 
@@ -4515,8 +4760,10 @@ int main()
   cout << ""Enter n: "";
   cin >> n;
   cout << naturalNumber(m, n);
-}"
-5.        C program to compute the integer resulting from rounding a number n (using function)	FALSE	TRUE		"// 5. C program to compute the integer resulting from rounding a number n (using function)
+}
+
+
+5.C program to compute the integer resulting from rounding a number n (using function)			"// 5. C program to compute the integer resulting from rounding a number n (using function)
 #include <iostream>
 using namespace std;
 
@@ -4534,9 +4781,11 @@ int main()
   cin >> x;
   cout << round(x) << endl;
   return 0;
-}"
+}
+
+
 "1. Write a C program using 3 functions to compute diameter, circumference and area of a
- circle whose radius is given by the user as the input."	FALSE	TRUE		"// 1. Write a C program using 3 functions to compute diameter, circumference and area of a circle whose radius is given by the user as the input.
+ circle whose radius is given by the user as the input."			"// 1. Write a C program using 3 functions to compute diameter, circumference and area of a circle whose radius is given by the user as the input.
 #include <iostream>
 //#include <cmath>
 using namespace std;
@@ -4565,8 +4814,10 @@ float circumference(float num1)
 float Area(float num1)
 {
   return 3.1416*num1*num1;
-}"
-2.        Find the sum of the following series using a function:  1^2 + 2^2 + 3^2 + … + N^2	FALSE	TRUE		"// 2.Find the sum of the following series using a function:  1^2 + 2^2 + 3^2 + … + N^2
+}
+
+
+2.Find the sum of the following series using a function:  1^2 + 2^2 + 3^2 + … + N^2			"// 2.Find the sum of the following series using a function:  1^2 + 2^2 + 3^2 + … + N^2
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -4592,7 +4843,7 @@ int main()
   return false;
 }
 "
-1. Find the sum of the following series using user-defined function:  1/1! + 2/2! + 3/3! + …… +1/N!	FALSE	TRUE		"// 1. Find the sum of the following series using user-defined function:  1/1! + 2/2! + 3/3! + …… +1/N!
+1. Find the sum of the following series using user-defined function:  1/1! + 2/2! + 3/3! + …… +1/N!			"// 1. Find the sum of the following series using user-defined function:  1/1! + 2/2! + 3/3! + …… +1/N!
 #include <iostream>
 // #include <cmath>
 using namespace std;
@@ -4619,7 +4870,7 @@ int main()
   return false;
 }
 "
-2.  Write a C code using functions that takes two integers: a and b as inputs and returns the value of a^b.	FALSE	TRUE		"// 2.        Write a C code using functions that takes two integers: a and b as inputs and returns the value of a^b.
+2.  Write a C code using functions that takes two integers: a and b as inputs and returns the value of a^b.			"// 2.Write a C code using functions that takes two integers: a and b as inputs and returns the value of a^b.
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -4633,9 +4884,9 @@ int main()
   return 0;
 }
 "
-"3.        Compute the sum of the following geometric progression using a function with 2 parameters r and n:
+"3.Compute the sum of the following geometric progression using a function with 2 parameters r and n:
 1 + r + r2 + … + rn (read the values of r and n from user)
-"	FALSE	TRUE		"// 3.        Compute the sum of the following geometric progression using a function with 2 parameters r and n:
+"			"// 3.Compute the sum of the following geometric progression using a function with 2 parameters r and n:
 // r^0(1) + r^1 + r^2 + … + r^n (read the values of r and n from user)
 
 #include <iostream>
@@ -4660,8 +4911,10 @@ int main()
   cin >> n1>> n2;
   series(n1, n2);
   return 0;
-}"
-4.        Write a C program that reads an integer and returns the reverse of that number using function.	FALSE	TRUE		"// 3.        Compute the sum of the following geometric progression using a function with 2 parameters r and n:
+}
+
+
+4.Write a C program that reads an integer and returns the reverse of that number using function.			"// 3.Compute the sum of the following geometric progression using a function with 2 parameters r and n:
 // r^0(1) + r^1 + r^2 + … + r^n (read the values of r and n from user)
 
 #include <iostream>
@@ -4687,7 +4940,7 @@ int main()
 }
 "
 "5. Write a C program using function that reads a floating point number n and an integer d and then prints
- the rounded value of n up to d decimal places. E.g. for n=5.678 and d = 2; it should print 5.68"	FALSE	TRUE		"// 5.        Write a C program using function that reads a floating point number n and an integer d and then prints the rounded value of n up to d decimal places. E.g. for n=5.678 and d = 2; it should print 5.68
+ the rounded value of n up to d decimal places. E.g. for n=5.678 and d = 2; it should print 5.68"			"// 5.Write a C program using function that reads a floating point number n and an integer d and then prints the rounded value of n up to d decimal places. E.g. for n=5.678 and d = 2; it should print 5.68
 
 #include <iostream>
 #include <cmath>
@@ -4709,7 +4962,7 @@ int main()
   return 0;
 }
 "
-1. C program of a recursive function to find the sum of n natural numbers. For example: the number 5 will give an output of 15 since 5+4+3+2+1 = 15.	FALSE	TRUE		"#include <iostream>
+1. C program of a recursive function to find the sum of n natural numbers. For example: the number 5 will give an output of 15 since 5+4+3+2+1 = 15.			"#include <iostream>
 #include <cmath>
 using namespace std;
 
@@ -4730,8 +4983,10 @@ int main()
   cin >> n;
   cout << natual(n);
   return 0;
-}"
-2.        Code that computes the factorial of a number using recursive function.	FALSE	TRUE		"// 2.        Code that computes the factorial of a number using recursive function.
+}
+
+
+2.Code that computes the factorial of a number using recursive function.			"// 2.Code that computes the factorial of a number using recursive function.
 
 #include <iostream>
 #include <cmath>
@@ -4751,8 +5006,10 @@ int main()
   cin >> n;
   cout << factorial(n);
   return 0;
-}"
-3.        Code that computes the n-th Fibonacci number using recursive function.	FALSE	TRUE		"// 3.        Code that computes the n-th Fibonacci number using recursive function.
+}
+
+
+3.Code that computes the n-th Fibonacci number using recursive function.			"// 3.Code that computes the n-th Fibonacci number using recursive function.
 // 0 1 1 2 3 5 8 13
 #include <iostream>
 #include <cmath>
@@ -4776,7 +5033,7 @@ int main()
   return 0;
 }
 "
-4.        C program to print all natural numbers from 1 to n using recursion.	FALSE	TRUE		"// 4.        C program to print all natural numbers from 1 to n using recursion.
+4.C program to print all natural numbers from 1 to n using recursion.			"// 4.C program to print all natural numbers from 1 to n using recursion.
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -4795,8 +5052,8 @@ int main()
   return 0;
 }
 "
-"1.        Write a C code to find the sum of the following series using RECURSIVE FUNCTIONS:
-1^2 + 2^2 + 3^2 + … + N^2"	FALSE	TRUE		"// 1.        Write a C code to find the sum of the following series using RECURSIVE FUNCTIONS:
+"1.Write a C code to find the sum of the following series using RECURSIVE FUNCTIONS:
+1^2 + 2^2 + 3^2 + … + N^2"			"// 1.Write a C code to find the sum of the following series using RECURSIVE FUNCTIONS:
 //  1^2 + 2^2 + 3^2 + … + N^2
 
 #include <iostream>
@@ -4827,8 +5084,8 @@ int main()
   return 0;
 }
 "
-"2.        Write a C program using recursive function to find the inverse product of 1st n natural numbers.
- E.g. for n= 5, the function should return (1/5) * (1/4) *(1/3) * (1/2) *(1/1) = 1/120 =0.00833"	FALSE	TRUE		"// 2.        Write a C program using recursive function to find the inverse product of 1st n natural numbers. E.g. for n= 5, the function should return (1/5) * (1/4) *(1/3) * (1/2) *(1/1) = 1/120 =0.00833
+"2.Write a C program using recursive function to find the inverse product of 1st n natural numbers.
+ E.g. for n= 5, the function should return (1/5) * (1/4) *(1/3) * (1/2) *(1/1) = 1/120 =0.00833"			"// 2.Write a C program using recursive function to find the inverse product of 1st n natural numbers. E.g. for n= 5, the function should return (1/5) * (1/4) *(1/3) * (1/2) *(1/1) = 1/120 =0.00833
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -4857,7 +5114,7 @@ int main()
   return 0;
 }
 "
-3.        Compute the value of ab using recursion, where a and b are integers.	FALSE	TRUE		"// 3.        Compute the value of a^b using recursion, where a and b are integers.
+3.Compute the value of ab using recursion, where a and b are integers.			"// 3.Compute the value of a^b using recursion, where a and b are integers.
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -4877,7 +5134,7 @@ int main()
   return 0;
 }
 "
-4.        Write a C program to print all natural numbers from n to 1 (i.e., from upper to lower) using recursion.	FALSE	TRUE		"// 4.        Write a C program to print all natural numbers from n to 1 (i.e., from upper to lower) using recursion.
+4.Write a C program to print all natural numbers from n to 1 (i.e., from upper to lower) using recursion.			"// 4.Write a C program to print all natural numbers from n to 1 (i.e., from upper to lower) using recursion.
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -4900,9 +5157,9 @@ int main()
   return 0;
 }
 "
-"1.        Compute the sum of the following geometric progression without recursion:
+"1.Compute the sum of the following geometric progression without recursion:
 1 + r + r2 + … + rn (read the values of r and n from user)
-"	FALSE	TRUE		"// 1.        Compute the sum of the following geometric progression without recursion:
+"			"// 1.Compute the sum of the following geometric progression without recursion:
 // 1 + r + r^2 + … + r^n (read the values of r and n from user)
 
 #include <iostream>
@@ -4924,7 +5181,7 @@ int main()
   return 0;
 }
 "
-2.        Compute the sum of the above geometric progression using recursion.	FALSE	TRUE		"// 2. Compute the sum of the above geometric progression using recursion.
+2.Compute the sum of the above geometric progression using recursion.			"// 2. Compute the sum of the above geometric progression using recursion.
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -4945,17 +5202,18 @@ int main()
   cin >> n;
   cout << ""Sum = "" << series(r, n);
   return 0;
-}"
-"3.        Write a C code to find the sum of the following series using recursion:
+}
+
+
+"3.Write a C code to find the sum of the following series using recursion:
 1/1! + 2/2! + 3/3! + ……1/N!
-"	FALSE	FALSE		
-"4.        Write a C program to compute sum of digits of a given number using recursion.
+	
+"4.Write a C program to compute sum of digits of a given number using recursion.
 Sample input/output:
 Enter an integer: 5431
 Sum of digits = 13
-"	FALSE	FALSE		
-"5.        Write a C program to print the digits of a given number in words using recursion.
+	
+"5.Write a C program to print the digits of a given number in words using recursion.
 Sample input/output:
 Enter an integer: 5431
 Number in words: Five Four Three One
-"	FALSE	FALSE		
